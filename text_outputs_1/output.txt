@@ -1,0 +1,931 @@
+प्रकार हैं। या हम इसे डेटा संरचनाओं के रूप में भी कह सकते हैं।']
+ > Processing time: 115.20276427268982
+ > Real-time factor: 7.153456317621909
+🎧 Synthesizing chunk 2/9:
+अब हम कार्यों पर आगे बढ़ते हैं।...
+ > Text splitted to sentences.
+['अब हम कार्यों पर आगे बढ़ते हैं।']
+ > Processing time: 32.96635150909424
+ > Real-time factor: 7.097602432974614
+🎧 Synthesizing chunk 3/9:
+इसलिए कार्य बहुत महत्वपूर्ण हैं, मूल रूप से किसी भी प्रोग्रा...
+ > Text splitted to sentences.
+['इसलिए कार्य बहुत महत्वपूर्ण हैं, मूल रूप से किसी भी प्रोग्रामिंग भाषा में बहुत महत्वपूर्ण हैं और जो हमारे दिन -प्रतिदिन
+ की प्रोग्रामिंग में भी बहुत महत्वपूर्ण है।']
+ > Processing time: 71.79177474975586
+ > Real-time factor: 6.258336363907097
+🎧 Synthesizing chunk 4/9:
+पहले हम इस बारे में बात करते हैं कि क्या कार्य है। एक फ़ंक्श...
+ > Text splitted to sentences.
+['पहले हम इस बारे में बात करते हैं कि क्या कार्य है। एक फ़ंक्शन बयानों का एक समूह है जो कोड का एक ब्लॉक है जो एक विशिष्ट 
+कार्य करेगा।']
+ > Processing time: 64.89947891235352
+ > Real-time factor: 6.4544702587924645
+🎧 Synthesizing chunk 5/9:
+कथनों का एक समूह मूल रूप से कोड का एक ब्लॉक है जो एक विशिष्ट...
+ > Text splitted to sentences.
+['कथनों का एक समूह मूल रूप से कोड का एक ब्लॉक है जो एक विशिष्ट कार्य करेगा। तो फ़ंक्शन कोड पुन: प्रयोज्य का क्या लाभ है?'
+, 'कोड पुन: प्रयोज्य।']
+ > Processing time: 116.38082432746887
+ > Real-time factor: 6.210304480999499
+🎧 Synthesizing chunk 6/9:
+कार्यों का मुख्य लाभ कोड पुन: प्रयोज्य है और यह भी हमारे कोड...
+ > Text splitted to sentences.
+['कार्यों का मुख्य लाभ कोड पुन: प्रयोज्य है और यह भी हमारे कोड को बनाए रखना आसान है। तो इसका क्या अर्थ है?', 'मैं एक उदाह
+रण में दिखाऊंगा।']
+ > Processing time: 88.8782730102539
+ > Real-time factor: 6.373471224490382
+🎧 Synthesizing chunk 7/9:
+और अधिकांश प्रोग्रामिंग भाषाएं भी मूल रूप से कार्यों का समर्...
+ > Text splitted to sentences.
+['और अधिकांश प्रोग्रामिंग भाषाएं भी मूल रूप से कार्यों का समर्थन करती हैं, लेकिन हम इसे अलग -अलग नामों में कह सकते हैं जै
+से कि हम इसे प्रक्रियाओं या विधियों या सबप्रोटीन के रूप में कह सकते हैं,']
+ > Processing time: 98.98864030838013
+ > Real-time factor: 6.120450443043042
+🎧 Synthesizing chunk 8/9:
+लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप ...
+ > Text splitted to sentences.
+['लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप से कार्यों में सही है।']
+लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप ...
+ > Text splitted to sentences.
+['लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप से कार्यों में सही है।']
+ > Text splitted to sentences.
+['लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप से कार्यों में सही है।']
+['लेकिन सभी सभी कर रहे हैं यह सब एक ही काम कर रहे हैं मूल रूप से कार्यों में सही है।']
+ > Processing time: 52.11536693572998
+ > Real-time factor: 6.330673429555124
+🎧 Synthesizing chunk 9/9:
+यदि वह कीवर्ड है जिसका उपयोग हम किसी फ़ंक्शन को परिभाषित करन...
+ > Text splitted to sentences.
+['यदि वह कीवर्ड है जिसका उपयोग हम किसी फ़ंक्शन को परिभाषित करने के लिए करते हैं तो इसका क्या मतलब है। अब हम एक उदाहरण देख
+ते हैं।']
+ > Processing time: 58.430187940597534
+🎧 Synthesizing chunk 9/9:
+यदि वह कीवर्ड है जिसका उपयोग हम किसी फ़ंक्शन को परिभाषित करन...
+ > Text splitted to sentences.
+['यदि वह कीवर्ड है जिसका उपयोग हम किसी फ़ंक्शन को परिभाषित करने के लिए करते हैं तो इसका क्या मतलब है। अब हम एक उदाहरण देख
+ते हैं।']
+ > Processing time: 58.430187940597534
+['यदि वह कीवर्ड है जिसका उपयोग हम किसी फ़ंक्शन को परिभाषित करने के लिए करते हैं तो इसका क्या मतलब है। अब हम एक उदाहरण देख
+ते हैं।']
+ > Processing time: 58.430187940597534
+ > Processing time: 58.430187940597534
+ > Real-time factor: 6.0558097883459405
+✅ Final voice cloned audio saved to: final_cloned_output.wav          python voice_c             y
+C:\Users\visualpath\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'D:\\Audio_Cloning_Project\\voice_c': [Errno 2] No such file or directory
+(env310) (C:\Users\visualpath\miniconda3) PS D:\Audio_Cloning_Project> python voice_clone_5_min.py
+🎙️ Loading Whisper...
+D:\Audio_Cloning_Project\env310\lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+📄 English Text:
+  So now let us understand the text bit more. Suppose you got an assignment or got a project where you have to create a translator. You have to take this data as an input and you have to translate. So this is your problem. So now to do this thing what exactly we can do it. We have to break this entire paragraphs or different paragraphs into small chunks or small problems. So currently the problem in hand is you have to convert this, this, this and this paragraphs into a different language. So what we can do you can divide this entire thing into smaller problems that you can take this particular paragraph than this and this and try to just translate this paragraph first then this and corresponding paragraphs. So what 
+exactly you are doing you are taking the big problem making it a small sequential problem because it is not that you pick this paragraph first translate it and then you go it with the other paragraph. You are doing in a sequence you are starting in a sequence. So you take a big problem break it into a small sequence of problems and then you try to solve it. And when you can do it then you can take up further step of translating this entire document into a different language. But 
+in NLP this entire thing you can divide into three core components. So let us understand that the first one is lexical processing. What you do in the lexical processing you take a raw data. So the previous example the entire document is the raw then you take the raw data, break it into tokens or you do it with morphology of words. Once you will try to correct the words if you have any spelling errors then you correct it if there are two forms of the same words you try to reduce into the single form or to the root word. So those things you do it in a lexical processing. The next one is syntactic processing. In this processing you try to understand the syntax of a sentence, syntax slash grammar of a sentence and you will do the POS tagging. What is POS? Parts of speech tagging. You will understand whether the sentence is grammatically correct and you try to assign a different parts of speech to your words. So the different parts of speech you might have a 
+noun verb, adjective, preposition etc. So that kind of a thing we do it in a synthetic processing. The next type of processing is semantic processing. So in this process in this style of processing you understand or you try to understand or you make a machine to understand the meaning of a sentence. And from here onwards when you able to understand a meaning of a sentence then you can create a translator, the language translator or a chatbot or many more things where you require 
+to understand the meaning of a sentence. But this all the approaches we see these three components are nothing but you can say it is a classical way, classical way of doing NLP. But since the deep learning came into the picture so now in the 
+advance we have doing the NLP we use a deep learning here. So in this particular model basically we will concentrate on lexical processing, synthetic processing and semantic processing which is a classical approach. And yes we will bit look into the deep learning approaches also where you use a deep learning techniques to do this semantics means to understand a sentence etc. we will use a deep learning model to do it. So now so far we have understood for a big raw text you divide or you break into the small problems and then you try to solve each problem and that is how you do the processing. That 
+is well and good but in the lexical processing I told that we divide the entire sentence into two kinds or we understand 
+the morphology of a word. If there are two words having a different morphology then we try to make it a single one or we 
+try to rectify the spell errors or spelling errors in lexical processing.
+🗣️ Formal Hindi:
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक 
+बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही 
+शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक 
+प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को
+शिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों। आप 
+समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास करते है
+ं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे
+ एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्रिया में 
+प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्य के अर्थ को समझने के लिए एक मशीन बनाते
+ हैं। और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और 
+चीजें बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को 
+देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्रीय तरीका है। लेकिन
+ चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते हैं। इसल
+िए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित करें
+गे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए
+ एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक वाक्य को समझने का मतलब है आदि। हम इसे करने के लिए एक गहन शिक्षण मॉडल का उ
+पयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं 
+और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह अच्छी तरह से और अच्छा
+ है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते हैं या हम एक शब्द के आकारिक
+ी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्
+करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+✅ Colloquial Hindi (70-30 Hinglish):
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक 
+बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही 
+शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक 
+प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को
+शिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों। आप 
+समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास करते है
+ं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे
+ एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्रिया में 
+प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्य के अर्थ को समझने के लिए एक मशीन बनाते
+ हैं। और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और 
+चीजें बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को 
+देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्रीय तरीका है। लेकिन
+ चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते हैं। इसल
+िए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित करें
+गे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए
+ एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक वाक्य को समझने का मतलब है आदि। हम इसे करने के लिए एक गहन शिक्षण मॉडल का उ
+पयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं 
+और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह अच्छी तरह से और अच्छा
+ है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते हैं या हम एक शब्द के आकारिक
+ी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्
+करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+D:\Audio_Cloning_Project\env310\lib\site-packages\huggingface_hub\file_download.py:943: FutureWarning: `resume_download` 
+is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+🧩 Text split into 29 chunks
+🎧 Synthesizing chunk 1/29:
+तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असा...
+ > Text splitted to sentences.
+['तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक
+ बनाना है।']
+ > Processing time: 62.35132193565369
+ > Real-time factor: 6.2370556392954
+🎧 Synthesizing chunk 2/29:
+आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद...
+ > Text splitted to sentences.
+['आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को करने के ल
+िए कि हम वास्तव में क्या कर सकते हैं।']
+ > Processing time: 71.09154605865479
+ > Real-time factor: 6.3384251091468995
+🎧 Synthesizing chunk 3/29:
+हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू ...
+ > Text splitted to sentences.
+['हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओं में तोड़ना होगा। तो वर्तमान में हाथ में सम
+स्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा।']
+ > Processing time: 107.32671594619751
+ > Real-time factor: 6.018213387042904
+🎧 Synthesizing chunk 4/29:
+तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में ...
+ > Text splitted to sentences.
+['तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस
+ से अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास']
+ > Processing time: 91.11278915405273
+ > Real-time factor: 6.1116968874630775
+🎧 Synthesizing chunk 5/29:
+कर सकते हैं, फिर यह और इसी पैराग्राफ।...
+ > Text splitted to sentences.
+['कर सकते हैं, फिर यह और इसी पैराग्राफ।']
+ > Processing time: 31.924428462982178
+ > Real-time factor: 6.453843769333624
+🎧 Synthesizing chunk 6/29:
+तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक...
+ > Text splitted to sentences.
+['तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं 
+है कि आप इस पैराग्राफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर']
+ > Processing time: 90.47708654403687
+ > Real-time factor: 6.05020791370279
+🎧 Synthesizing chunk 7/29:
+आप इसे दूसरे पैराग्राफ के साथ जाते हैं।...
+ > Text splitted to sentences.
+['आप इसे दूसरे पैराग्राफ के साथ जाते हैं।']
+ > Processing time: 30.771597146987915
+ > Real-time factor: 6.777546319033518
+🎧 Synthesizing chunk 8/29:
+आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रह...
+ > Text splitted to sentences.
+['आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अन
+ुक्रम में तोड़ते हैं और फिर आप इसे हल करने का प्रयास करते हैं।']
+ > Processing time: 102.0416750907898
+ > Real-time factor: 6.643024398152709
+🎧 Synthesizing chunk 9/29:
+और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भ...
+ > Text splitted to sentences.
+['और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम उठा सकते हैं। लेकिन एनएलपी मे
+ं इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं।']
+ > Processing time: 111.80538201332092
+ > Real-time factor: 7.5290394374350305
+🎧 Synthesizing chunk 10/29:
+तो आइए हम समझें कि पहला एक लेक्सिकल प्रोसेसिंग है। आप लेक्सि...
+ > Text splitted to sentences.
+['तो आइए हम समझें कि पहला एक लेक्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं।'
+]
+ > Processing time: 60.59410071372986
+ > Real-time factor: 6.976877353672734
+🎧 Synthesizing chunk 11/29:
+तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा...
+ > Text splitted to sentences.
+['तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आ
+कृति विज्ञान के साथ करते हैं।']
+ > Processing time: 66.65185284614563
+ > Real-time factor: 5.998470887715957
+🎧 Synthesizing chunk 12/29:
+एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पा...
+ > Text splitted to sentences.
+['एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप ए
+क ही शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम']
+ > Processing time: 96.99084210395813
+ > Real-time factor: 6.978828605154143
+🎧 Synthesizing chunk 13/29:
+करने का प्रयास करते हैं।...
+ > Text splitted to sentences.
+['करने का प्रयास करते हैं।']
+ > Processing time: 47.200085401535034
+ > Real-time factor: 5.733593450329702
+🎧 Synthesizing chunk 14/29:
+तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अग...
+ > Text splitted to sentences.
+['तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है।']
+ > Processing time: 50.79256749153137
+ > Real-time factor: 6.135376200742105
+🎧 Synthesizing chunk 15/29:
+इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को...
+ > Text splitted to sentences.
+['इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की कोशिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस
+ टैगिंग करेंगे। पीओएस क्या है?', 'भाषण टैगिंग के कुछ हिस्सों।']
+ > Processing time: 100.0591094493866
+ > Real-time factor: 5.775905177596377
+🎧 Synthesizing chunk 16/29:
+आप समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने ...
+ > Text splitted to sentences.
+['आप समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास कर
+ते हैं।']
+ > Processing time: 54.00593900680542
+ > Real-time factor: 5.778040112860316
+🎧 Synthesizing chunk 17/29:
+तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, वि...
+ > Text splitted to sentences.
+['तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे 
+एक सिंथेटिक प्रसंस्करण में करते हैं।']
+ > Processing time: 71.37063193321228
+ > Real-time factor: 5.649816309550128
+🎧 Synthesizing chunk 18/29:
+अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।...
+ > Text splitted to sentences.
+['अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।']
+ > Processing time: 30.698972940444946
+ > Real-time factor: 5.797865161511675
+🎧 Synthesizing chunk 19/29:
+तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली म...
+ > Text splitted to sentences.
+['तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्
+य के अर्थ को समझने के लिए एक मशीन बनाते हैं।']
+ > Processing time: 68.41701054573059
+ > Real-time factor: 5.644249784994611
+🎧 Synthesizing chunk 20/29:
+और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते है...
+ > Text splitted to sentences.
+['और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और चीजे
+ं बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है।']
+ > Processing time: 107.91398096084595
+ > Real-time factor: 6.7400387496789405
+🎧 Synthesizing chunk 21/29:
+लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे क...
+ > Text splitted to sentences.
+['लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरी
+का है, एनएलपी करने का शास्त्रीय तरीका है।']
+ > Processing time: 84.44546103477478
+ > Real-time factor: 6.684841230889138
+🎧 Synthesizing chunk 22/29:
+लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम म...
+ > Text splitted to sentences.
+['लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते ह
+ैं।']
+ > Processing time: 61.461137771606445
+ > Real-time factor: 6.575664194666186
+🎧 Synthesizing chunk 23/29:
+इसलिए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, स...
+ > Text splitted to sentences.
+['इसलिए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित
+ करेंगे जो एक शास्त्रीय दृष्टिकोण है।']
+ > Processing time: 77.60098600387573
+ > Real-time factor: 6.6239615259579585
+🎧 Synthesizing chunk 24/29:
+और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आ...
+ > Text splitted to sentences.
+['और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए एक गहरी सीखने की तकनीकों का उप
+योग करते हैं, एक वाक्य को समझने का मतलब है आदि।']
+ > Processing time: 87.21608519554138
+ > Real-time factor: 6.689001469759334
+🎧 Synthesizing chunk 25/29:
+हम इसे करने के लिए एक गहन शिक्षण मॉडल का उपयोग करेंगे।...
+ > Text splitted to sentences.
+['हम इसे करने के लिए एक गहन शिक्षण मॉडल का उपयोग करेंगे।']
+ > Processing time: 42.35359477996826
+ > Real-time factor: 6.705174934651781
+🎧 Synthesizing chunk 26/29:
+तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभा...
+ > Text splitted to sentences.
+['तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं और फिर आप प
+्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण']
+ > Processing time: 98.80712866783142
+ > Real-time factor: 6.607238303428366
+🎧 Synthesizing chunk 27/29:
+कैसे करते हैं।...
+ > Text splitted to sentences.
+['कैसे करते हैं।']
+ > Processing time: 38.66108798980713
+ > Real-time factor: 6.541413368441123
+🎧 Synthesizing chunk 28/29:
+यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल प्रोसेसिंग में म...
+ > Text splitted to sentences.
+['यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते ह
+ैं या हम एक शब्द के आकारिकी को समझते हैं।']
+ > Processing time: 80.49664831161499
+ > Real-time factor: 6.55912277268636
+🎧 Synthesizing chunk 29/29:
+यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल ...
+['यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्करण में वर्तनी
+ त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।']
+ > Processing time: 80.62106585502625
+ > Real-time factor: 6.651056951898117
+✅ Final voice cloned audio saved to: final_5_min_audio.wav
+(env310) (C:\Users\visualpath\miniconda3) PS D:\Audio_Cloning_Project> python voice_clone_5_min.py
+🎙️ Loading Whisper...
+D:\Audio_Cloning_Project\env310\lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+📄 English Text:
+  So now let us understand the text bit more. Suppose you got an assignment or got a project where you have to create a translator. You have to take this data as an input and you have to translate. So this is your problem. So now to do this thing what exactly we can do it. We have to break this entire paragraphs or different paragraphs into small chunks or small problems. So currently the problem in hand is you have to convert this, this, this and this paragraphs into a different language. So what we can do you can divide this entire thing into smaller problems that you can take this particular paragraph than this and this and try to just translate this paragraph first then this and corresponding paragraphs. So what 
+exactly you are doing you are taking the big problem making it a small sequential problem because it is not that you pick this paragraph first translate it and then you go it with the other paragraph. You are doing in a sequence you are starting in a sequence. So you take a big problem break it into a small sequence of problems and then you try to solve it. And when you can do it then you can take up further step of translating this entire document into a different language. But 
+in NLP this entire thing you can divide into three core components. So let us understand that the first one is lexical processing. What you do in the lexical processing you take a raw data. So the previous example the entire document is the raw then you take the raw data, break it into tokens or you do it with morphology of words. Once you will try to correct the words if you have any spelling errors then you correct it if there are two forms of the same words you try to reduce into the single form or to the root word. So those things you do it in a lexical processing. The next one is syntactic processing. In this processing you try to understand the syntax of a sentence, syntax slash grammar of a sentence and you will do the POS tagging. What is POS? Parts of speech tagging. You will understand whether the sentence is grammatically correct and you try to assign a different parts of speech to your words. So the different parts of speech you might have a 
+noun verb, adjective, preposition etc. So that kind of a thing we do it in a synthetic processing. The next type of processing is semantic processing. So in this process in this style of processing you understand or you try to understand or you make a machine to understand the meaning of a sentence. And from here onwards when you able to understand a meaning of a sentence then you can create a translator, the language translator or a chatbot or many more things where you require 
+to understand the meaning of a sentence. But this all the approaches we see these three components are nothing but you can say it is a classical way, classical way of doing NLP. But since the deep learning came into the picture so now in the 
+advance we have doing the NLP we use a deep learning here. So in this particular model basically we will concentrate on lexical processing, synthetic processing and semantic processing which is a classical approach. And yes we will bit look into the deep learning approaches also where you use a deep learning techniques to do this semantics means to understand a sentence etc. we will use a deep learning model to do it. So now so far we have understood for a big raw text you divide or you break into the small problems and then you try to solve each problem and that is how you do the processing. That 
+is well and good but in the lexical processing I told that we divide the entire sentence into two kinds or we understand 
+the morphology of a word. If there are two words having a different morphology then we try to make it a single one or we 
+try to rectify the spell errors or spelling errors in lexical processing.
+🗣️ Formal Hindi:
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक 
+बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही 
+शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक 
+प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को
+शिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों। आप 
+समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास करते है
+ं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे
+ एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्रिया में 
+प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्य के अर्थ को समझने के लिए एक मशीन बनाते
+ हैं। और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और 
+चीजें बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को 
+देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्रीय तरीका है। लेकिन
+ चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते हैं। इसल
+िए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित करें
+गे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए
+ एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक वाक्य को समझने का मतलब है आदि। हम इसे करने के लिए एक गहन शिक्षण मॉडल का उ
+पयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं 
+और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह अच्छी तरह से और अच्छा
+ है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते हैं या हम एक शब्द के आकारिक
+ी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्
+करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+✅ Colloquial Hindi (70-30 Hinglish):
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक 
+बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही 
+शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक 
+प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को
+शिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों। आप 
+समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास करते है
+ं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे
+ एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्रिया में 
+प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्य के अर्थ को समझने के लिए एक मशीन बनाते
+ हैं। और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और 
+चीजें बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को 
+देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्रीय तरीका है। लेकिन
+ चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते हैं। इसल
+िए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित करें
+गे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए
+ एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक वाक्य को समझने का मतलब है आदि। हम इसे करने के लिए एक गहन शिक्षण मॉडल का उ
+पयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं 
+और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह अच्छी तरह से और अच्छा
+ है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते हैं या हम एक शब्द के आकारिक
+ी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्
+करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+🔍 Estimated English Word Ratio: 0.0%
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+D:\Audio_Cloning_Project\env310\lib\site-packages\huggingface_hub\file_download.py:943: FutureWarning: `resume_download` 
+is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+🧩 Text split into 29 chunks
+🎧 Synthesizing chunk 1/29:
+तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असा...
+ > Text splitted to sentences.
+['तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक
+ बनाना है।']
+ > Processing time: 52.056609869003296
+ > Real-time factor: 5.604289936389358
+🎧 Synthesizing chunk 2/29:
+आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद...
+ > Text splitted to sentences.
+['आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को करने के ल
+िए कि हम वास्तव में क्या कर सकते हैं।']
+ > Processing time: 58.7004611492157
+ > Real-time factor: 5.355615559170003
+🎧 Synthesizing chunk 3/29:
+हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू ...
+ > Text splitted to sentences.
+['हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओं में तोड़ना होगा। तो वर्तमान में हाथ में सम
+स्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा।']
+ > Processing time: 84.51308131217957
+ > Real-time factor: 5.278476781479604
+🎧 Synthesizing chunk 4/29:
+तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में ...
+ > Text splitted to sentences.
+['तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस
+ से अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास']
+ > Processing time: 81.01115846633911
+ > Real-time factor: 5.326248879415275
+🎧 Synthesizing chunk 5/29:
+कर सकते हैं, फिर यह और इसी पैराग्राफ।...
+ > Text splitted to sentences.
+['कर सकते हैं, फिर यह और इसी पैराग्राफ।']
+ > Processing time: 28.170902490615845
+ > Real-time factor: 6.126404449247272
+🎧 Synthesizing chunk 6/29:
+तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक...
+ > Text splitted to sentences.
+['तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं 
+है कि आप इस पैराग्राफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर']
+ > Processing time: 104.30892777442932
+ > Real-time factor: 6.389773796023266
+🎧 Synthesizing chunk 7/29:
+आप इसे दूसरे पैराग्राफ के साथ जाते हैं।...
+ > Text splitted to sentences.
+['आप इसे दूसरे पैराग्राफ के साथ जाते हैं।']
+ > Processing time: 39.92336297035217
+ > Real-time factor: 6.932012673997302
+🎧 Synthesizing chunk 8/29:
+आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रह...
+ > Text splitted to sentences.
+['आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अन
+ुक्रम में तोड़ते हैं और फिर आप इसे हल करने का प्रयास करते हैं।']
+ > Processing time: 105.73722815513611
+ > Real-time factor: 7.07065444957528
+🎧 Synthesizing chunk 9/29:
+और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भ...
+ > Text splitted to sentences.
+['और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम उठा सकते हैं। लेकिन एनएलपी मे
+ं इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं।']
+ > Processing time: 94.12532138824463
+ > Real-time factor: 6.823949631131287
+🎧 Synthesizing chunk 10/29:
+तो आइए हम समझें कि पहला एक लेक्सिकल प्रोसेसिंग है। आप लेक्सि...
+ > Text splitted to sentences.
+['तो आइए हम समझें कि पहला एक लेक्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं।'
+]
+ > Processing time: 67.05475115776062
+ > Real-time factor: 7.060113755007171
+🎧 Synthesizing chunk 11/29:
+तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा...
+ > Text splitted to sentences.
+['तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आ
+कृति विज्ञान के साथ करते हैं।']
+ > Processing time: 73.44400548934937
+ > Real-time factor: 6.700762665674254
+🎧 Synthesizing chunk 12/29:
+एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पा...
+ > Text splitted to sentences.
+['एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप ए
+क ही शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम']
+ > Processing time: 104.55862188339233
+ > Real-time factor: 7.187134060703779
+🎧 Synthesizing chunk 13/29:
+करने का प्रयास करते हैं।...
+ > Text splitted to sentences.
+['करने का प्रयास करते हैं।']
+ > Processing time: 26.3034086227417
+ > Real-time factor: 7.678327686552829
+🎧 Synthesizing chunk 14/29:
+तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अग...
+ > Text splitted to sentences.
+['तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है।']
+ > Processing time: 58.69499230384827
+ > Real-time factor: 7.170378181787155
+🎧 Synthesizing chunk 15/29:
+इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को...
+ > Text splitted to sentences.
+['इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की कोशिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस
+ टैगिंग करेंगे। पीओएस क्या है?', 'भाषण टैगिंग के कुछ हिस्सों।']
+ > Processing time: 130.36916184425354
+ > Real-time factor: 6.813234780683046
+🎧 Synthesizing chunk 16/29:
+आप समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने ...
+ > Text splitted to sentences.
+['आप समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास कर
+ते हैं।']
+ > Processing time: 63.05345869064331
+ > Real-time factor: 6.178140615573609
+🎧 Synthesizing chunk 17/29:
+तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, वि...
+ > Text splitted to sentences.
+['तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे 
+एक सिंथेटिक प्रसंस्करण में करते हैं।']
+ > Processing time: 80.95881772041321
+ > Real-time factor: 6.678920722594699
+🎧 Synthesizing chunk 18/29:
+अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।...
+ > Text splitted to sentences.
+['अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।']
+ > Processing time: 37.388922452926636
+ > Real-time factor: 6.666659173947409
+🎧 Synthesizing chunk 19/29:
+तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली म...
+ > Text splitted to sentences.
+['तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्
+य के अर्थ को समझने के लिए एक मशीन बनाते हैं।']
+ > Processing time: 78.26277947425842
+ > Real-time factor: 6.377100039198391
+🎧 Synthesizing chunk 20/29:
+और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते है...
+ > Text splitted to sentences.
+['और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और चीजे
+ं बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है।']
+ > Processing time: 141.99495720863342
+ > Real-time factor: 6.67576844414246
+🎧 Synthesizing chunk 21/29:
+लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे क...
+ > Text splitted to sentences.
+['लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरी
+का है, एनएलपी करने का शास्त्रीय तरीका है।']
+ > Processing time: 74.78694033622742
+ > Real-time factor: 6.467073611775329
+🎧 Synthesizing chunk 22/29:
+लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम म...
+ > Text splitted to sentences.
+['लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते ह
+ैं।']
+ > Processing time: 60.11567521095276
+ > Real-time factor: 6.069815730097023
+🎧 Synthesizing chunk 23/29:
+इसलिए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, स...
+ > Text splitted to sentences.
+['इसलिए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित
+ करेंगे जो एक शास्त्रीय दृष्टिकोण है।']
+ > Processing time: 71.36410737037659
+ > Real-time factor: 5.837062168069336
+🎧 Synthesizing chunk 24/29:
+और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आ...
+ > Text splitted to sentences.
+['और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए एक गहरी सीखने की तकनीकों का उप
+योग करते हैं, एक वाक्य को समझने का मतलब है आदि।']
+ > Processing time: 88.69492840766907
+ > Real-time factor: 6.754307244947722
+🎧 Synthesizing chunk 25/29:
+हम इसे करने के लिए एक गहन शिक्षण मॉडल का उपयोग करेंगे।...
+ > Text splitted to sentences.
+['हम इसे करने के लिए एक गहन शिक्षण मॉडल का उपयोग करेंगे।']
+ > Processing time: 39.78441643714905
+ > Real-time factor: 6.2524687994578665
+🎧 Synthesizing chunk 26/29:
+तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभा...
+ > Text splitted to sentences.
+['तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं और फिर आप प
+्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण']
+ > Processing time: 96.2599687576294
+ > Real-time factor: 5.757487498116749
+🎧 Synthesizing chunk 27/29:
+कैसे करते हैं।...
+ > Text splitted to sentences.
+['कैसे करते हैं।']
+ > Processing time: 36.69575214385986
+ > Real-time factor: 6.054271929038294
+🎧 Synthesizing chunk 28/29:
+यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल प्रोसेसिंग में म...
+ > Text splitted to sentences.
+['यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते ह
+ैं या हम एक शब्द के आकारिकी को समझते हैं।']
+ > Processing time: 63.32933592796326
+ > Real-time factor: 5.448944313899255
+🎧 Synthesizing chunk 29/29:
+यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल ...
+['यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्करण में वर्तनी
+ त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।']
+ > Processing time: 73.30498027801514
+ > Real-time factor: 5.475821233976888
+✅ Final voice cloned audio saved to: final_5_min_audio.wav
+(env310) (C:\Users\visualpath\miniconda3) PS D:\Audio_Cloning_Project> python voice_clone_5_min.py
+🎙️ Loading Whisper...
+D:\Audio_Cloning_Project\env310\lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+📄 English Text:
+  So now let us understand the text bit more. Suppose you got an assignment or got a project where you have to create a translator. You have to take this data as an input and you have to translate. So this is your problem. So now to do this thing what exactly we can do it. We have to break this entire paragraphs or different paragraphs into small chunks or small problems. So currently the problem in hand is you have to convert this, this, this and this paragraphs into a different language. So what we can do you can divide this entire thing into smaller problems that you can take this particular paragraph than this and this and try to just translate this paragraph first then this and corresponding paragraphs. So what 
+exactly you are doing you are taking the big problem making it a small sequential problem because it is not that you pick this paragraph first translate it and then you go it with the other paragraph. You are doing in a sequence you are starting in a sequence. So you take a big problem break it into a small sequence of problems and then you try to solve it. And when you can do it then you can take up further step of translating this entire document into a different language. But 
+in NLP this entire thing you can divide into three core components. So let us understand that the first one is lexical processing. What you do in the lexical processing you take a raw data. So the previous example the entire document is the raw then you take the raw data, break it into tokens or you do it with morphology of words. Once you will try to correct the words if you have any spelling errors then you correct it if there are two forms of the same words you try to reduce into the single form or to the root word. So those things you do it in a lexical processing. The next one is syntactic processing. In this processing you try to understand the syntax of a sentence, syntax slash grammar of a sentence and you will do the POS tagging. What is POS? Parts of speech tagging. You will understand whether the sentence is grammatically correct and you try to assign a different parts of speech to your words. So the different parts of speech you might have a 
+noun verb, adjective, preposition etc. So that kind of a thing we do it in a synthetic processing. The next type of processing is semantic processing. So in this process in this style of processing you understand or you try to understand or you make a machine to understand the meaning of a sentence. And from here onwards when you able to understand a meaning of a sentence then you can create a translator, the language translator or a chatbot or many more things where you require 
+to understand the meaning of a sentence. But this all the approaches we see these three components are nothing but you can say it is a classical way, classical way of doing NLP. But since the deep learning came into the picture so now in the 
+advance we have doing the NLP we use a deep learning here. So in this particular model basically we will concentrate on lexical processing, synthetic processing and semantic processing which is a classical approach. And yes we will bit look into the deep learning approaches also where you use a deep learning techniques to do this semantics means to understand a sentence etc. we will use a deep learning model to do it. So now so far we have understood for a big raw text you divide or you break into the small problems and then you try to solve each problem and that is how you do the processing. That 
+is well and good but in the lexical processing I told that we divide the entire sentence into two kinds or we understand 
+the morphology of a word. If there are two words having a different morphology then we try to make it a single one or we 
+try to rectify the spell errors or spelling errors in lexical processing.
+🗣️ Formal Hindi:
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक इनपुट के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल प्रोसेसिंग है। आप लेक्सिकल प्रोसेसिंग में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे टोकन में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक 
+बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही 
+शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक 
+प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक वाक्य के वाक्यविन्यास को समझने की को
+शिश करते हैं, एक वाक्य के सिंटैक्स स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों। आप 
+समझेंगे कि क्या वाक्य व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास करते है
+ं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे
+ एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्रिया में 
+प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक वाक्य के अर्थ को समझने के लिए एक मशीन बनाते
+ हैं। और यहाँ से जब आप एक वाक्य के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और 
+चीजें बना सकते हैं जहां आपको एक वाक्य के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को 
+देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्रीय तरीका है। लेकिन
+ चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते हैं। इसल
+िए इस विशेष मॉडल में मूल रूप से हम लेक्सिकल प्रोसेसिंग, सिंथेटिक प्रोसेसिंग और सिमेंटिक प्रोसेसिंग पर ध्यान केंद्रित करें
+गे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए
+ एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक वाक्य को समझने का मतलब है आदि। हम इसे करने के लिए एक गहन शिक्षण मॉडल का उ
+पयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं 
+और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह अच्छी तरह से और अच्छा
+ है, लेकिन लेक्सिकल प्रोसेसिंग में मैंने बताया कि हम पूरे वाक्य को दो प्रकार में विभाजित करते हैं या हम एक शब्द के आकारिक
+ी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्
+करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+✅ Colloquial Hindi (Explicit 70:30 Hinglish):
+ तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक 
+बनाना है। आपको इस डेटा को एक input के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को क
+रने के लिए कि हम वास्तव में क्या कर सकते हैं। हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओ
+ं में तोड़ना होगा। तो वर्तमान में हाथ में समस्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा। तो
+ हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस से 
+अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास कर सकते हैं, फिर यह और इसी पैराग्राफ। तो वास्तव में आप 
+क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं है कि आप इस पैराग्र
+ाफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर आप इसे दूसरे पैराग्राफ के साथ जाते हैं। आप एक अनुक्रम में कर रहे हैं 
+जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अनुक्रम में तोड़ते हैं और फिर आप 
+इसे हल करने का प्रयास करते हैं। और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम
+ उठा सकते हैं। लेकिन एनएलपी में इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं। तो आइए हम समझें कि पहला एक ले
+क्सिकल processing है। आप लेक्सिकल processing में क्या करते हैं आप एक कच्चा डेटा लेते हैं। तो पिछला उदाहरण संपूर्ण दस्तावे
+ज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे token में तोड़ते हैं या आप इसे शब्दों की आकृति विज्ञान के साथ करते हैं। एक
+ बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप एक ही
+ शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम करने का प्रयास करते हैं। तो वे चीजें जो आप इसे एक शाब्दिक
+ प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है। इस प्रसंस्करण में आप एक sentence के वाक्यविन्यास को समझने क
+ी कोशिश करते हैं, एक sentence के syntax स्लैश ग्रामर और आप पीओएस टैगिंग करेंगे। पीओएस क्या है? भाषण टैगिंग के कुछ हिस्सों
+। आप समझेंगे कि क्या sentence व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास
+ करते हैं। तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की ची
+ज हम इसे एक सिंथेटिक प्रसंस्करण में करते हैं। अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है। तो इस प्रक्रिया में इस प्रक्र
+िया में प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक sentence के अर्थ को समझने के लिए एक
+ मशीन बनाते हैं। और यहाँ से जब आप एक sentence के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चै
+टबॉट या कई और चीजें बना सकते हैं जहां आपको एक sentence के अर्थ को समझने की आवश्यकता होती है। लेकिन यह सभी दृष्टिकोण जो हम
+ इन तीन घटकों को देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरीका है, एनएलपी करने का शास्त्री
+य तरीका है। लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उप
+योग करते हैं। इसलिए इस विशेष model में मूल रूप से हम लेक्सिकल processing, सिंथेटिक processing और सिमेंटिक processing पर ध
+्यान केंद्रित करेंगे जो एक शास्त्रीय दृष्टिकोण है। और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दा
+र्थ को करने के लिए एक गहरी सीखने की तकनीकों का उपयोग करते हैं, एक sentence को समझने का मतलब है आदि। हम इसे करने के लिए एक
+ गहन शिक्षण model का उपयोग करेंगे। तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी सम
+स्याओं में तोड़ते हैं और फिर आप प्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण कैसे करते हैं। यह
+ अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल processing में मैंने बताया कि हम पूरे sentence को दो प्रकार में विभाजित करते है
+ं या हम एक शब्द के आकारिकी को समझते हैं। यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते 
+हैं या हम शाब्दिक प्रसंस्करण में वर्तनी त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+D:\Audio_Cloning_Project\env310\lib\site-packages\huggingface_hub\file_download.py:943: FutureWarning: `resume_download` 
+is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+🧩 Text split into 29 chunks
+🎧 Synthesizing chunk 1/29:
+तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असा...
+ > Text splitted to sentences.
+['तो अब हम पाठ को थोड़ा और समझते हैं। मान लीजिए कि आपको एक असाइनमेंट मिला है या एक प्रोजेक्ट मिला है जहां आपको एक अनुवादक
+ बनाना है।']
+ > Processing time: 68.25117301940918
+ > Real-time factor: 6.827222749319393
+🎧 Synthesizing chunk 2/29:
+आपको इस डेटा को एक input के रूप में लेना होगा और आपको अनुवाद...
+ > Text splitted to sentences.
+['आपको इस डेटा को एक input के रूप में लेना होगा और आपको अनुवाद करना होगा। तो यह आपकी समस्या है। तो अब इस बात को करने के ल
+िए कि हम वास्तव में क्या कर सकते हैं।']
+ > Processing time: 68.70844149589539
+ > Real-time factor: 6.100690737486684
+🎧 Synthesizing chunk 3/29:
+हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू ...
+ > Text splitted to sentences.
+['हमें इस पूरे पैराग्राफ या अलग -अलग पैराग्राफ को छोटे विखंडू या छोटी समस्याओं में तोड़ना होगा। तो वर्तमान में हाथ में सम
+स्या यह है कि आपको इसे, यह, यह और यह पैराग्राफ एक अलग भाषा में बदलना होगा।']
+ > Processing time: 92.19492244720459
+ > Real-time factor: 6.2920877282996
+🎧 Synthesizing chunk 4/29:
+तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में ...
+ > Text splitted to sentences.
+['तो हम क्या कर सकते हैं आप इस पूरी चीज़ को छोटी समस्याओं में विभाजित कर सकते हैं, जिसे आप इस विशेष पैराग्राफ से इस और इस
+ से अधिक ले जा सकते हैं और इस पैराग्राफ को पहले अनुवाद करने का प्रयास']
+ > Processing time: 100.3927755355835
+ > Real-time factor: 7.122460426510991
+🎧 Synthesizing chunk 5/29:
+कर सकते हैं, फिर यह और इसी पैराग्राफ।...
+ > Text splitted to sentences.
+['कर सकते हैं, फिर यह और इसी पैराग्राफ।']
+ > Processing time: 30.0600004196167
+ > Real-time factor: 5.951219376279883
+🎧 Synthesizing chunk 6/29:
+तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक...
+ > Text splitted to sentences.
+['तो वास्तव में आप क्या कर रहे हैं आप इसे एक छोटी सी अनुक्रमिक समस्या बनाने वाली बड़ी समस्या ले रहे हैं क्योंकि ऐसा नहीं 
+है कि आप इस पैराग्राफ को चुनते हैं और पहले इसका अनुवाद करते हैं और फिर']
+ > Processing time: 89.72505331039429
+ > Real-time factor: 6.104178263977249
+🎧 Synthesizing chunk 7/29:
+आप इसे दूसरे पैराग्राफ के साथ जाते हैं।...
+ > Text splitted to sentences.
+['आप इसे दूसरे पैराग्राफ के साथ जाते हैं।']
+ > Processing time: 35.51300573348999
+ > Real-time factor: 5.96191509641441
+🎧 Synthesizing chunk 8/29:
+आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रह...
+ > Text splitted to sentences.
+['आप एक अनुक्रम में कर रहे हैं जो आप एक अनुक्रम में शुरू कर रहे हैं। इसलिए आप एक बड़ी समस्या को समस्याओं के एक छोटे से अन
+ुक्रम में तोड़ते हैं और फिर आप इसे हल करने का प्रयास करते हैं।']
+ > Processing time: 83.42068004608154
+ > Real-time factor: 5.635220071982066
+🎧 Synthesizing chunk 9/29:
+और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भ...
+ > Text splitted to sentences.
+['और जब आप इसे कर सकते हैं तो आप इस पूरे दस्तावेज़ को एक अलग भाषा में अनुवाद करने का और कदम उठा सकते हैं। लेकिन एनएलपी मे
+ं इस पूरी बात में आप तीन मुख्य घटकों में विभाजित हो सकते हैं।']
+ > Processing time: 93.29958629608154
+ > Real-time factor: 5.752180573716609
+🎧 Synthesizing chunk 10/29:
+तो आइए हम समझें कि पहला एक लेक्सिकल processing है। आप लेक्सि...
+ > Text splitted to sentences.
+['तो आइए हम समझें कि पहला एक लेक्सिकल processing है। आप लेक्सिकल processing में क्या करते हैं आप एक कच्चा डेटा लेते हैं।'
+]
+ > Processing time: 51.420655965805054
+ > Real-time factor: 5.591737670865232
+🎧 Synthesizing chunk 11/29:
+तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा...
+ > Text splitted to sentences.
+['तो पिछला उदाहरण संपूर्ण दस्तावेज़ कच्चा है फिर आप कच्चे डेटा को लेते हैं, इसे token में तोड़ते हैं या आप इसे शब्दों की 
+आकृति विज्ञान के साथ करते हैं।']
+ > Processing time: 66.15458631515503
+ > Real-time factor: 5.978706096502919
+🎧 Synthesizing chunk 12/29:
+एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पा...
+ > Text splitted to sentences.
+['एक बार जब आप शब्दों को ठीक करने का प्रयास करेंगे यदि आपके पास कोई वर्तनी त्रुटियां हैं, तो आप इसे ठीक करते हैं यदि आप ए
+क ही शब्दों के दो रूप हैं जिन्हें आप एकल रूप में या रूट शब्द में कम']
+ > Processing time: 78.57081484794617
+ > Real-time factor: 5.889605885902954
+🎧 Synthesizing chunk 13/29:
+करने का प्रयास करते हैं।...
+ > Text splitted to sentences.
+['करने का प्रयास करते हैं।']
+ > Processing time: 19.739177465438843
+ > Real-time factor: 6.318944005704507
+🎧 Synthesizing chunk 14/29:
+तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अग...
+ > Text splitted to sentences.
+['तो वे चीजें जो आप इसे एक शाब्दिक प्रसंस्करण में करते हैं। अगले एक वाक्यविन्यास प्रसंस्करण है।']
+ > Processing time: 44.75238752365112
+ > Real-time factor: 5.79591993760283
+🎧 Synthesizing chunk 15/29:
+इस प्रसंस्करण में आप एक sentence के वाक्यविन्यास को समझने की...
+ > Text splitted to sentences.
+['इस प्रसंस्करण में आप एक sentence के वाक्यविन्यास को समझने की कोशिश करते हैं, एक sentence के syntax स्लैश ग्रामर और आप प
+ीओएस टैगिंग करेंगे। पीओएस क्या है?', 'भाषण टैगिंग के कुछ हिस्सों।']
+ > Processing time: 106.5611572265625
+ > Real-time factor: 5.508837677352256
+🎧 Synthesizing chunk 16/29:
+आप समझेंगे कि क्या sentence व्याकरणिक रूप से सही है और आप अप...
+ > Text splitted to sentences.
+['आप समझेंगे कि क्या sentence व्याकरणिक रूप से सही है और आप अपने शब्दों को भाषण के एक अलग हिस्सों को असाइन करने का प्रयास
+ करते हैं।']
+ > Processing time: 56.743539810180664
+ > Real-time factor: 5.5097365462485195
+🎧 Synthesizing chunk 17/29:
+तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, वि...
+ > Text splitted to sentences.
+['तो भाषण के विभिन्न हिस्सों में आपके पास एक संज्ञा क्रिया, विशेषण, पूर्वसर्ग आदि हो सकते हैं, ताकि उस तरह की चीज हम इसे 
+एक सिंथेटिक प्रसंस्करण में करते हैं।']
+ > Processing time: 84.20470380783081
+ > Real-time factor: 6.861266921017373
+🎧 Synthesizing chunk 18/29:
+अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।...
+ > Text splitted to sentences.
+['अगले प्रकार का प्रसंस्करण अर्थ प्रसंस्करण है।']
+ > Processing time: 37.022884368896484
+ > Real-time factor: 6.670435680596871
+🎧 Synthesizing chunk 19/29:
+तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली म...
+ > Text splitted to sentences.
+['तो इस प्रक्रिया में इस प्रक्रिया में प्रसंस्करण की इस शैली में आप समझते हैं या आप समझने की कोशिश करते हैं या आप एक sent
+ence के अर्थ को समझने के लिए एक मशीन बनाते हैं।']
+ > Processing time: 78.12035965919495
+ > Real-time factor: 6.184135829474871
+🎧 Synthesizing chunk 20/29:
+और यहाँ से जब आप एक sentence के अर्थ को समझने में सक्षम होते...
+ > Text splitted to sentences.
+['और यहाँ से जब आप एक sentence के अर्थ को समझने में सक्षम होते हैं तो आप एक अनुवादक, भाषा अनुवादक या एक चैटबॉट या कई और च
+ीजें बना सकते हैं जहां आपको एक sentence के अर्थ को समझने की आवश्यकता होती है।']
+ > Processing time: 101.5220468044281
+ > Real-time factor: 6.183870530490717
+🎧 Synthesizing chunk 21/29:
+लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे क...
+ > Text splitted to sentences.
+['लेकिन यह सभी दृष्टिकोण जो हम इन तीन घटकों को देखते हैं, वे कुछ भी नहीं हैं, लेकिन आप कह सकते हैं कि यह एक शास्त्रीय तरी
+का है, एनएलपी करने का शास्त्रीय तरीका है।']
+ > Processing time: 67.19072246551514
+ > Real-time factor: 6.331433463096619
+🎧 Synthesizing chunk 22/29:
+लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम म...
+ > Text splitted to sentences.
+['लेकिन चूंकि गहरी शिक्षा तस्वीर में आ गई थी इसलिए अब अग्रिम में हम एनएलपी कर रहे हैं हम यहां एक गहरी सीख का उपयोग करते ह
+ैं।']
+ > Processing time: 56.648881673812866
+ > Real-time factor: 6.3362746576352045
+🎧 Synthesizing chunk 23/29:
+इसलिए इस विशेष model में मूल रूप से हम लेक्सिकल processing, ...
+ > Text splitted to sentences.
+['इसलिए इस विशेष model में मूल रूप से हम लेक्सिकल processing, सिंथेटिक processing और सिमेंटिक processing पर ध्यान केंद्रि
+त करेंगे जो एक शास्त्रीय दृष्टिकोण है।']
+ > Processing time: 71.89586877822876
+ > Real-time factor: 6.299287568185931
+🎧 Synthesizing chunk 24/29:
+और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आ...
+ > Text splitted to sentences.
+['और हाँ, हम गहरे सीखने के दृष्टिकोण पर भी ध्यान देंगे, जहां आप इस शब्दार्थ को करने के लिए एक गहरी सीखने की तकनीकों का उप
+योग करते हैं, एक sentence को समझने का मतलब है आदि।']
+ > Processing time: 87.6505799293518
+ > Real-time factor: 6.218453305798608
+🎧 Synthesizing chunk 25/29:
+हम इसे करने के लिए एक गहन शिक्षण model का उपयोग करेंगे।...
+ > Text splitted to sentences.
+['हम इसे करने के लिए एक गहन शिक्षण model का उपयोग करेंगे।']
+ > Processing time: 39.764408111572266
+ > Real-time factor: 6.510671846116256
+🎧 Synthesizing chunk 26/29:
+तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभा...
+ > Text splitted to sentences.
+['तो अब तक हम एक बड़े कच्चे पाठ के लिए समझ गए हैं जिसे आप विभाजित करते हैं या आप छोटी समस्याओं में तोड़ते हैं और फिर आप प
+्रत्येक समस्या को हल करने का प्रयास करते हैं और यह है कि आप प्रसंस्करण']
+ > Processing time: 85.36309909820557
+ > Real-time factor: 6.1679348264412805
+🎧 Synthesizing chunk 27/29:
+कैसे करते हैं।...
+ > Text splitted to sentences.
+['कैसे करते हैं।']
+ > Processing time: 33.97328448295593
+ > Real-time factor: 6.225160574135573
+🎧 Synthesizing chunk 28/29:
+यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल processing में म...
+ > Text splitted to sentences.
+['यह अच्छी तरह से और अच्छा है, लेकिन लेक्सिकल processing में मैंने बताया कि हम पूरे sentence को दो प्रकार में विभाजित करत
+े हैं या हम एक शब्द के आकारिकी को समझते हैं।']
+ > Processing time: 73.16105055809021
+ > Real-time factor: 6.006855692604591
+🎧 Synthesizing chunk 29/29:
+यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल ...
+ > Text splitted to sentences.
+['यदि दो शब्द एक अलग आकृति विज्ञान होते हैं, तो हम इसे एक एकल बनाने की कोशिश करते हैं या हम शाब्दिक प्रसंस्करण में वर्तनी
+ त्रुटियों या वर्तनी त्रुटियों को ठीक करने का प्रयास करते हैं।']
+ > Processing time: 82.13563990592957
+ > Real-time factor: 6.401967012349934
+✅ Final voice cloned audio saved to: final_5_min_audio_colloquial.wav
+⏱️ Total Execution Time: 35.33 minutes
+(env310) (C:\Users\visualpath\miniconda3) PS D:\Audio_Cloning_Project> ///
