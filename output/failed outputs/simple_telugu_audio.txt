@@ -1,0 +1,5 @@
+English: On the other hand, when you have seen the linear regression, there we try to predict a number. That is called a regression problem.
+
+Telugu Colloquial: Ade mari, neevu linear regression choosinappudu, akkada manam oka number predict cheyadaniki prayatnistamu. Danini regression problem antaru.
+
+Voice: Microsoft Telugu Male (MohanNeural)

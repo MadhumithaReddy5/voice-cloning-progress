@@ -1,0 +1,24 @@
+# Ignore removed/failed files
+audio_to_audio_clone.py
+coqui_advanced_telugu.py
+coqui_colab_solution.py
+coqui_simple_telugu.py
+coqui_telugu_fix.py
+english_to_indian_voice_clone.py
+input_based_voice_clone.py
+multilingual_voice_clone.py
+simple_english_to_indian.py
+working_audio_clone.py
+
+# Ignore virtual environment
+teluguenv310/
+
+# Ignore large model files
+models/
+*.pth
+*.bin
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+*.tmp
