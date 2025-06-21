@@ -10,6 +10,9 @@ multilingual_voice_clone.py
 simple_english_to_indian.py
 working_audio_clone.py
 
+# Ignore removed files folder
+removed_files/
+
 # Ignore virtual environment
 teluguenv310/
 
