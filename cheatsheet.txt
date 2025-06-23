@@ -1,0 +1,155 @@
+----------------->don’t have f5_tts.synthesizer
+
+print("🔍 Trying to import infer_cli from f5_tts...")
+
+try:
+    from f5_tts.infer import infer_cli
+    print("✅ Successfully imported infer_cli from f5_tts.infer")
+except ImportError as e:
+    print("❌ Failed to import infer_cli:")
+    print(e)
+
+----------------------------->🔍 Trying to import infer_cli from f5_tts...
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\VISUAL~1\AppData\Local\Temp\jieba.cache
+Loading model cost 0.942 seconds.
+Prefix dict has been built successfully.
+Word segmentation module jieba initialized.
+
+Traceback (most recent call last):
+  File "D:\Telugu_2\Test.py", line 21, in <module>
+    from f5_tts.infer import infer_cli
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_cli.py", line 92, in <module>  
+    config = tomli.load(open(args.config, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\visualpath\\anaconda3\\envs\\indicf5\\lib\\site-packages\\f5_tts\\infer\\examples\\basic\\basic.toml'
+(indicf5) PS D:\Telugu_2> 
+
+
+
+
+--------------------------->You're very close — the import of infer_cli from f5_tts.infer is working ✅, but the problem is this:
+
+❌ Problem:
+The moment you import infer_cli, it runs code immediately — specifically this line:
+
+</>
+config = tomli.load(open(args.config, "rb"))
+And it tries to open this file:
+
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\examples\basic\basic.toml
+But this file doesn't exist.
+
+✅ Solution:
+You need to prevent infer_cli.py from executing at import time, or alternatively, don't import the entire script (infer_cli.py) like that.
+
+
+
+------------->,</>Edit Test.py to only check if the module exists, without letting infer_cli.py run:
+
+
+import importlib.util
+
+spec = importlib.util.find_spec("f5_tts.infer.infer_cli")
+if spec is not None:
+    print("✅ infer_cli module is available inside f5_tts.infer")
+else:
+    print("❌ infer_cli module not found")
+
+
+(indicf5) PS D:\Telugu_2> python Test.py
+>>
+✅ infer_cli module is available inside f5_tts.infer
+(indicf5) PS D:\Telugu_2> 
+
+
+--------------------->✅ Perfect! This confirms that infer_cli exists and is available inside f5_tts.infer.
+
+Now you're ready to synthesize Telugu speech using IndicF5.
+
+--------------------->
+(indicf5) PS D:\Telugu_2\indicf5> python -m f5_tts.infer.infer_cli --config gen_file.toml
+>>
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\VISUAL~1\AppData\Local\Temp\jieba.cache
+Loading model cost 1.227 seconds.
+Prefix dict has been built successfully.
+Word segmentation module jieba initialized.
+
+Traceback (most recent call last):
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Telugu_2\indicf5\f5_tts\infer\infer_cli.py", line 92, in <module>
+    config = tomli.load(open(args.config, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'gen_file.toml'
+(indicf5) PS D:\Telugu_2\indicf5> 
+
+
+
+
+--------------->D:/Telugu_2/indicf5/models/te_model/
+├── best_ckpt.pt
+├── config.toml
+└── vocab.txt
+
+
+
+
+
+
+
+last day 
+(indicf5) PS D:\Telugu_2\indicf5> python -m f5_tts.infer.infer_cli --config gen_file.toml
+>>
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\VISUAL~1\AppData\Local\Temp\jieba.cache
+Loading model cost 0.988 seconds.
+Prefix dict has been built successfully.
+Word segmentation module jieba initialized.
+
+Download Vocos from huggingface charactr/vocos-mel-24khz
+Traceback (most recent call last):
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Telugu_2\indicf5\f5_tts\infer\infer_cli.py", line 163, in <module>
+    ema_model = load_model(model_cls, model_cfg, ckpt_file, mel_spec_type=mel_spec_type, vocab_file=vocab_file)        
+NameError: name 'model_cls' is not defined
+(indicf5) PS D:\Telugu_2\indicf5> python -m f5_tts.infer.infer_cli --config gen_file.toml
+>>
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\VISUAL~1\AppData\Local\Temp\jieba.cache
+Loading model cost 1.026 seconds.
+Prefix dict has been built successfully.
+Word segmentation module jieba initialized.
+
+Download Vocos from huggingface charactr/vocos-mel-24khz
+Traceback (most recent call last):
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Telugu_2\indicf5\f5_tts\infer\infer_cli.py", line 165, in <module>
+    ema_model = load_model(model_cls, model_cfg, ckpt_file, mel_spec_type=mel_spec_type, vocab_file=vocab_file)        
+NameError: name 'model_cfg' is not defined. Did you mean: 'model_cls'?
+(indicf5) PS D:\Telugu_2\indicf5> python -m f5_tts.infer.infer_cli --config gen_file.toml
+>>
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\VISUAL~1\AppData\Local\Temp\jieba.cache
+Loading model cost 1.114 seconds.
+Prefix dict has been built successfully.
+Word segmentation module jieba initialized.
+
+Download Vocos from huggingface charactr/vocos-mel-24khz
+Using {'ckpt_dir': 'D:/Telugu_2/indicf5/models/te_model', 'model_name': 'best_ckpt.pt'}...
+Traceback (most recent call last):
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\visualpath\anaconda3\envs\indicf5\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Telugu_2\indicf5\f5_tts\infer\infer_cli.py", line 170, in <module>
+    with open(os.path.join(model["ckpt_dir"], "config.toml"), "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/Telugu_2/indicf5/models/te_model\\config.toml'
+(indicf5) PS D:\Telugu_2\indicf5> 

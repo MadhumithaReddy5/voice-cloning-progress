@@ -1,0 +1,757 @@
+(base) PS D:\Telugu_2> conda create -n indicf5 python=3.10 -y
+>>
+Retrieving notices: done
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\visualpath\anaconda3\envs\indicf5
+
+  added / updated specs:
+    - python=3.10
+
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_6
+  ca-certificates    pkgs/main/win-64::ca-certificates-2025.2.25-haa95532_0
+  expat              pkgs/main/win-64::expat-2.7.1-h8ddb27b_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  openssl            pkgs/main/win-64::openssl-3.0.16-h3f729d1_0
+  pip                pkgs/main/noarch::pip-25.1-pyhc872135_2
+  python             pkgs/main/win-64::python-3.10.18-h981015d_0
+  setuptools         pkgs/main/win-64::setuptools-78.1.1-py310haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.45.3-h2bbff1b_0
+  tk                 pkgs/main/win-64::tk-8.6.14-h5e9d12e_1
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0
+  vc                 pkgs/main/win-64::vc-14.42-haa95532_5
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.42.34433-hbfb602d_5
+  wheel              pkgs/main/win-64::wheel-0.45.1-py310haa95532_0
+  xz                 pkgs/main/win-64::xz-5.6.4-h4754444_1
+  zlib               pkgs/main/win-64::zlib-1.2.13-h8cc25b3_1
+
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate indicf5
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+$ : The term '$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the      
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ~
+    + CategoryInfo          : ObjectNotFound: ($:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(base) PS D:\Telugu_2>  conda activate indicf5
+(indicf5) PS D:\Telugu_2> cd logs
+(indicf5) PS D:\Telugu_2\logs> import os
+>>
+>> os.makedirs("logs", exist_ok=True)
+>>
+At line:3 char:20
++ os.makedirs("logs", exist_ok=True)
++                    ~
+Missing expression after ','.
+At line:3 char:21
++ os.makedirs("logs", exist_ok=True)
++                     ~~~~~~~~~~~~~
+Unexpected token 'exist_ok=True' in expression or statement.
+At line:3 char:20
++ os.makedirs("logs", exist_ok=True)
++                    ~
+Missing closing ')' in expression.
+At line:3 char:34
++ os.makedirs("logs", exist_ok=True)
++                                  ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterToken
+ 
+(indicf5) PS D:\Telugu_2\logs> python log.py
+(indicf5) PS D:\Telugu_2\logs> python log.py
+2025-06-23 16:24:11,181 - INFO - 🚀 Starting IndicF5 Voice Cloning Script
+(indicf5) PS D:\Telugu_2\logs> pip install --upgrade pip
+>>
+>> # Install IndicF5 + Whisper + Translation + Audio tools
+>> pip install git+https://github.com/ai4bharat/IndicF5.git
+>> pip install git+https://github.com/openai/whisper.git
+>> pip install git+https://github.com/AI4Bharat/IndicTrans.git
+>> pip install torchaudio pydub transformers
+>>
+Requirement already satisfied: pip in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (25.1)d91c
+Collecting pip
+  Using cached pip-25.1.1-py3-none-any.whl.metadata (3.6 kB)
+Using cached pip-25.1.1-py3-none-any.whl (1.8 MB)
+ERROR: To modify pip, please run the following command:
+C:\Users\visualpath\anaconda3\envs\indicf5\python.exe -m pip install --upgrade pip
+Collecting git+https://github.com/ai4bharat/IndicF5.git
+  Cloning https://github.com/ai4bharat/IndicF5.git to c:\users\visualpath\appdata\local\temp\pip-req-build-fq2qc9uh
+  Running command git clone --filter=blob:none --quiet https://github.com/ai4bharat/IndicF5.git 'C:\Users\visualpath\AppData\Local\Temp\pip-req-build-fq2qc9uh'
+  Resolved https://github.com/ai4bharat/IndicF5.git to commit b334bb3b1f6a027420cd02c8ffb1fc95b146c6e8
+  Preparing metadata (setup.py) ... done
+Collecting accelerate>=0.33.0 (from f5_tts==0.1.0)
+  Downloading accelerate-1.8.1-py3-none-any.whl.metadata (19 kB)
+Collecting cached_path (from f5_tts==0.1.0)
+  Using cached cached_path-1.7.3-py3-none-any.whl.metadata (19 kB)
+Collecting click (from f5_tts==0.1.0)
+  Using cached click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting datasets (from f5_tts==0.1.0)
+  Using cached datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
+Collecting ema_pytorch>=0.5.2 (from f5_tts==0.1.0)
+  Using cached ema_pytorch-0.7.7-py3-none-any.whl.metadata (689 bytes)
+Collecting hydra-core>=1.3.0 (from f5_tts==0.1.0)
+  Using cached hydra_core-1.3.2-py3-none-any.whl.metadata (5.5 kB)
+Collecting jieba (from f5_tts==0.1.0)
+  Using cached jieba-0.42.1-py3-none-any.whl
+Collecting librosa (from f5_tts==0.1.0)
+  Using cached librosa-0.11.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting matplotlib (from f5_tts==0.1.0)
+  Using cached matplotlib-3.10.3-cp310-cp310-win_amd64.whl.metadata (11 kB)
+Collecting numpy<=1.26.4 (from f5_tts==0.1.0)
+  Using cached numpy-1.26.4-cp310-cp310-win_amd64.whl.metadata (61 kB)
+Collecting pydub (from f5_tts==0.1.0)
+  Using cached pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting pypinyin (from f5_tts==0.1.0)
+  Using cached pypinyin-0.54.0-py2.py3-none-any.whl.metadata (12 kB)
+Collecting safetensors (from f5_tts==0.1.0)
+  Using cached safetensors-0.5.3-cp38-abi3-win_amd64.whl.metadata (3.9 kB)
+Collecting soundfile (from f5_tts==0.1.0)
+  Using cached soundfile-0.13.1-py2.py3-none-win_amd64.whl.metadata (16 kB)
+Collecting tomli (from f5_tts==0.1.0)
+  Using cached tomli-2.2.1-py3-none-any.whl.metadata (10 kB)
+Collecting torch>=2.0.0 (from f5_tts==0.1.0)
+  Using cached torch-2.7.1-cp310-cp310-win_amd64.whl.metadata (28 kB)
+Collecting torchaudio>=2.0.0 (from f5_tts==0.1.0)
+  Using cached torchaudio-2.7.1-cp310-cp310-win_amd64.whl.metadata (6.6 kB)
+Collecting torchdiffeq (from f5_tts==0.1.0)
+  Using cached torchdiffeq-0.2.5-py3-none-any.whl.metadata (440 bytes)
+Collecting tqdm>=4.65.0 (from f5_tts==0.1.0)
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting transformers (from f5_tts==0.1.0)
+  Using cached transformers-4.52.4-py3-none-any.whl.metadata (38 kB)
+Collecting transformers_stream_generator (from f5_tts==0.1.0)
+  Using cached transformers_stream_generator-0.0.5-py3-none-any.whl
+Collecting vocos (from f5_tts==0.1.0)
+  Using cached vocos-0.1.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting wandb (from f5_tts==0.1.0)
+  Using cached wandb-0.20.1-py3-none-win_amd64.whl.metadata (10 kB)
+Collecting x_transformers>=1.31.14 (from f5_tts==0.1.0)
+  Downloading x_transformers-2.3.23-py3-none-any.whl.metadata (89 kB)
+Collecting packaging>=20.0 (from accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting psutil (from accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl.metadata (23 kB)
+Collecting pyyaml (from accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl.metadata (2.1 kB)
+Collecting huggingface_hub>=0.21.0 (from accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached huggingface_hub-0.33.0-py3-none-any.whl.metadata (14 kB)
+Collecting filelock (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached fsspec-2025.5.1-py3-none-any.whl.metadata (11 kB)
+Collecting requests (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Collecting typing-extensions>=3.7.4.3 (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting omegaconf<2.4,>=2.2 (from hydra-core>=1.3.0->f5_tts==0.1.0)
+  Using cached omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core>=1.3.0->f5_tts==0.1.0)
+  Using cached antlr4_python3_runtime-4.9.3-py3-none-any.whl
+Collecting sympy>=1.13.3 (from torch>=2.0.0->f5_tts==0.1.0)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch>=2.0.0->f5_tts==0.1.0)
+  Using cached networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting jinja2 (from torch>=2.0.0->f5_tts==0.1.0)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch>=2.0.0->f5_tts==0.1.0)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting colorama (from tqdm>=4.65.0->f5_tts==0.1.0)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting einops>=0.8.0 (from x_transformers>=1.31.14->f5_tts==0.1.0)
+  Using cached einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Collecting einx>=0.3.0 (from x_transformers>=1.31.14->f5_tts==0.1.0)
+  Using cached einx-0.3.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting loguru (from x_transformers>=1.31.14->f5_tts==0.1.0)
+  Using cached loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
+Collecting frozendict (from einx>=0.3.0->x_transformers>=1.31.14->f5_tts==0.1.0)
+  Using cached frozendict-2.4.6-cp310-cp310-win_amd64.whl.metadata (23 kB)
+Collecting rich<14.0,>=12.1 (from cached_path->f5_tts==0.1.0)
+  Using cached rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Collecting boto3<2.0,>=1.0 (from cached_path->f5_tts==0.1.0)
+  Downloading boto3-1.38.41-py3-none-any.whl.metadata (6.6 kB)
+Collecting google-cloud-storage<3.0,>=1.32.0 (from cached_path->f5_tts==0.1.0)
+  Using cached google_cloud_storage-2.19.0-py2.py3-none-any.whl.metadata (9.1 kB)
+Collecting botocore<1.39.0,>=1.38.41 (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Downloading botocore-1.38.41-py3-none-any.whl.metadata (5.7 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Using cached jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer<0.14.0,>=0.13.0 (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Using cached s3transfer-0.13.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting google-auth<3.0dev,>=2.26.1 (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached google_auth-2.40.3-py2.py3-none-any.whl.metadata (6.2 kB)
+Collecting google-api-core<3.0.0dev,>=2.15.0 (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached google_api_core-2.25.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting google-cloud-core<3.0dev,>=2.3.0 (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached google_cloud_core-2.4.3-py2.py3-none-any.whl.metadata (2.7 kB)
+Collecting google-resumable-media>=2.7.2 (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached google_resumable_media-2.7.2-py2.py3-none-any.whl.metadata (2.2 kB)
+Collecting google-crc32c<2.0dev,>=1.0 (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached google_crc32c-1.7.1-cp310-cp310-win_amd64.whl.metadata (2.4 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.56.2 (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached googleapis_common_protos-1.70.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.19.5 (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached protobuf-6.31.1-cp310-abi3-win_amd64.whl.metadata (593 bytes)
+Collecting proto-plus<2.0.0,>=1.22.3 (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached proto_plus-1.26.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting cachetools<6.0,>=2.0.0 (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting pyasn1-modules>=0.2.1 (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting rsa<5,>=3.1.4 (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached rsa-4.9.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached charset_normalizer-3.4.2-cp310-cp310-win_amd64.whl.metadata (36 kB)
+Collecting idna<4,>=2.5 (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting certifi>=2017.4.17 (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached certifi-2025.6.15-py3-none-any.whl.metadata (2.4 kB)
+Collecting markdown-it-py>=2.2.0 (from rich<14.0,>=12.1->cached_path->f5_tts==0.1.0)
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich<14.0,>=12.1->cached_path->f5_tts==0.1.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting pyasn1>=0.1.3 (from rsa<5,>=3.1.4->google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0)
+  Using cached pyasn1-0.6.1-py3-none-any.whl.metadata (8.4 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.0,>=12.1->cached_path->f5_tts==0.1.0)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting pyarrow>=15.0.0 (from datasets->f5_tts==0.1.0)
+  Using cached pyarrow-20.0.0-cp310-cp310-win_amd64.whl.metadata (3.4 kB)
+Collecting dill<0.3.9,>=0.3.0 (from datasets->f5_tts==0.1.0)
+  Using cached dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+Collecting pandas (from datasets->f5_tts==0.1.0)
+  Using cached pandas-2.3.0-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Collecting xxhash (from datasets->f5_tts==0.1.0)
+  Using cached xxhash-3.5.0-cp310-cp310-win_amd64.whl.metadata (13 kB)
+Collecting multiprocess<0.70.17 (from datasets->f5_tts==0.1.0)
+  Using cached multiprocess-0.70.16-py310-none-any.whl.metadata (7.2 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0)
+  Using cached fsspec-2025.3.0-py3-none-any.whl.metadata (11 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached aiohttp-3.12.13-cp310-cp310-win_amd64.whl.metadata (7.9 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+Collecting async-timeout<6.0,>=4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached frozenlist-1.7.0-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Downloading multidict-6.5.0-cp310-cp310-win_amd64.whl.metadata (5.5 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached propcache-0.3.2-cp310-cp310-win_amd64.whl.metadata (12 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0)
+  Using cached yarl-1.20.1-cp310-cp310-win_amd64.whl.metadata (76 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch>=2.0.0->f5_tts==0.1.0)
+  Using cached MarkupSafe-3.0.2-cp310-cp310-win_amd64.whl.metadata (4.1 kB)
+Collecting audioread>=2.1.9 (from librosa->f5_tts==0.1.0)
+  Using cached audioread-3.0.1-py3-none-any.whl.metadata (8.4 kB)
+Collecting numba>=0.51.0 (from librosa->f5_tts==0.1.0)
+  Using cached numba-0.61.2-cp310-cp310-win_amd64.whl.metadata (2.9 kB)
+Collecting scipy>=1.6.0 (from librosa->f5_tts==0.1.0)
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting scikit-learn>=1.1.0 (from librosa->f5_tts==0.1.0)
+  Using cached scikit_learn-1.7.0-cp310-cp310-win_amd64.whl.metadata (14 kB)
+Collecting joblib>=1.0 (from librosa->f5_tts==0.1.0)
+  Using cached joblib-1.5.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting decorator>=4.3.0 (from librosa->f5_tts==0.1.0)
+  Using cached decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting pooch>=1.1 (from librosa->f5_tts==0.1.0)
+  Using cached pooch-1.8.2-py3-none-any.whl.metadata (10 kB)
+Collecting soxr>=0.3.2 (from librosa->f5_tts==0.1.0)
+  Using cached soxr-0.5.0.post1-cp310-cp310-win_amd64.whl.metadata (5.6 kB)
+Collecting lazy_loader>=0.1 (from librosa->f5_tts==0.1.0)
+  Using cached lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+Collecting msgpack>=1.0 (from librosa->f5_tts==0.1.0)
+  Using cached msgpack-1.1.1-cp310-cp310-win_amd64.whl.metadata (8.6 kB)
+Collecting llvmlite<0.45,>=0.44.0dev0 (from numba>=0.51.0->librosa->f5_tts==0.1.0)
+  Using cached llvmlite-0.44.0-cp310-cp310-win_amd64.whl.metadata (5.0 kB)
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa->f5_tts==0.1.0)
+  Using cached platformdirs-4.3.8-py3-none-any.whl.metadata (12 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=1.1.0->librosa->f5_tts==0.1.0)
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting cffi>=1.0 (from soundfile->f5_tts==0.1.0)
+  Using cached cffi-1.17.1-cp310-cp310-win_amd64.whl.metadata (1.6 kB)
+Collecting pycparser (from cffi>=1.0->soundfile->f5_tts==0.1.0)
+  Using cached pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting win32-setctime>=1.0.0 (from loguru->x_transformers>=1.31.14->f5_tts==0.1.0)
+  Using cached win32_setctime-1.2.0-py3-none-any.whl.metadata (2.4 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->f5_tts==0.1.0)
+  Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->f5_tts==0.1.0)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->f5_tts==0.1.0)
+  Using cached fonttools-4.58.4-cp310-cp310-win_amd64.whl.metadata (108 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->f5_tts==0.1.0)
+  Using cached kiwisolver-1.4.8-cp310-cp310-win_amd64.whl.metadata (6.3 kB)
+Collecting pillow>=8 (from matplotlib->f5_tts==0.1.0)
+  Using cached pillow-11.2.1-cp310-cp310-win_amd64.whl.metadata (9.1 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->f5_tts==0.1.0)
+  Using cached pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting pytz>=2020.1 (from pandas->datasets->f5_tts==0.1.0)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->datasets->f5_tts==0.1.0)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting regex!=2019.12.17 (from transformers->f5_tts==0.1.0)
+  Using cached regex-2024.11.6-cp310-cp310-win_amd64.whl.metadata (41 kB)
+Collecting tokenizers<0.22,>=0.21 (from transformers->f5_tts==0.1.0)
+  Using cached tokenizers-0.21.1-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+Collecting encodec==0.1.1 (from vocos->f5_tts==0.1.0)
+  Using cached encodec-0.1.1-py3-none-any.whl
+Collecting gitpython!=3.1.29,>=1.0.0 (from wandb->f5_tts==0.1.0)
+  Using cached GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
+Collecting pydantic<3 (from wandb->f5_tts==0.1.0)
+  Using cached pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+Collecting sentry-sdk>=2.0.0 (from wandb->f5_tts==0.1.0)
+  Using cached sentry_sdk-2.30.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting setproctitle (from wandb->f5_tts==0.1.0)
+  Using cached setproctitle-1.3.6-cp310-cp310-win_amd64.whl.metadata (10 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3->wandb->f5_tts==0.1.0)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic<3->wandb->f5_tts==0.1.0)
+  Using cached pydantic_core-2.33.2-cp310-cp310-win_amd64.whl.metadata (6.9 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic<3->wandb->f5_tts==0.1.0)
+  Using cached typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb->f5_tts==0.1.0)
+  Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb->f5_tts==0.1.0)
+  Using cached smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+Using cached numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+Downloading accelerate-1.8.1-py3-none-any.whl (365 kB)
+Using cached ema_pytorch-0.7.7-py3-none-any.whl (9.8 kB)
+Using cached huggingface_hub-0.33.0-py3-none-any.whl (514 kB)
+Using cached hydra_core-1.3.2-py3-none-any.whl (154 kB)
+Using cached omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl (161 kB)
+Using cached safetensors-0.5.3-cp38-abi3-win_amd64.whl (308 kB)
+Using cached torch-2.7.1-cp310-cp310-win_amd64.whl (216.1 MB)
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Using cached torchaudio-2.7.1-cp310-cp310-win_amd64.whl (2.5 MB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Using cached typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+Downloading x_transformers-2.3.23-py3-none-any.whl (85 kB)
+Using cached einops-0.8.1-py3-none-any.whl (64 kB)
+Using cached einx-0.3.0-py3-none-any.whl (102 kB)
+Using cached cached_path-1.7.3-py3-none-any.whl (36 kB)
+Downloading boto3-1.38.41-py3-none-any.whl (139 kB)
+Downloading botocore-1.38.41-py3-none-any.whl (13.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 6.7 MB/s eta 0:00:00
+Using cached filelock-3.18.0-py3-none-any.whl (16 kB)
+Using cached google_cloud_storage-2.19.0-py2.py3-none-any.whl (131 kB)
+Using cached google_api_core-2.25.1-py3-none-any.whl (160 kB)
+Using cached google_auth-2.40.3-py2.py3-none-any.whl (216 kB)
+Using cached cachetools-5.5.2-py3-none-any.whl (10 kB)
+Using cached google_cloud_core-2.4.3-py2.py3-none-any.whl (29 kB)
+Using cached google_crc32c-1.7.1-cp310-cp310-win_amd64.whl (33 kB)
+Using cached googleapis_common_protos-1.70.0-py3-none-any.whl (294 kB)
+Using cached jmespath-1.0.1-py3-none-any.whl (20 kB)
+Using cached proto_plus-1.26.1-py3-none-any.whl (50 kB)
+Using cached protobuf-6.31.1-cp310-abi3-win_amd64.whl (435 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached requests-2.32.4-py3-none-any.whl (64 kB)
+Using cached charset_normalizer-3.4.2-cp310-cp310-win_amd64.whl (105 kB)
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Using cached rich-13.9.4-py3-none-any.whl (242 kB)
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 6.8 MB/s eta 0:00:00
+Using cached rsa-4.9.1-py3-none-any.whl (34 kB)
+Using cached s3transfer-0.13.0-py3-none-any.whl (85 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Using cached certifi-2025.6.15-py3-none-any.whl (157 kB)
+Using cached google_resumable_media-2.7.2-py2.py3-none-any.whl (81 kB)
+Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached pyasn1-0.6.1-py3-none-any.whl (83 kB)
+Using cached pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached click-8.2.1-py3-none-any.whl (102 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached datasets-3.6.0-py3-none-any.whl (491 kB)
+Using cached dill-0.3.8-py3-none-any.whl (116 kB)
+Using cached fsspec-2025.3.0-py3-none-any.whl (193 kB)
+Using cached multiprocess-0.70.16-py310-none-any.whl (134 kB)
+Using cached aiohttp-3.12.13-cp310-cp310-win_amd64.whl (450 kB)
+Using cached async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Downloading multidict-6.5.0-cp310-cp310-win_amd64.whl (44 kB)
+Using cached yarl-1.20.1-cp310-cp310-win_amd64.whl (86 kB)
+Using cached aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Using cached aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+Using cached attrs-25.3.0-py3-none-any.whl (63 kB)
+Using cached frozenlist-1.7.0-cp310-cp310-win_amd64.whl (43 kB)
+Using cached propcache-0.3.2-cp310-cp310-win_amd64.whl (41 kB)
+Using cached pyarrow-20.0.0-cp310-cp310-win_amd64.whl (25.8 MB)
+Using cached frozendict-2.4.6-cp310-cp310-win_amd64.whl (37 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached MarkupSafe-3.0.2-cp310-cp310-win_amd64.whl (15 kB)
+Using cached librosa-0.11.0-py3-none-any.whl (260 kB)
+Using cached audioread-3.0.1-py3-none-any.whl (23 kB)
+Using cached decorator-5.2.1-py3-none-any.whl (9.2 kB)
+Using cached joblib-1.5.1-py3-none-any.whl (307 kB)
+Using cached lazy_loader-0.4-py3-none-any.whl (12 kB)
+Using cached msgpack-1.1.1-cp310-cp310-win_amd64.whl (71 kB)
+Using cached numba-0.61.2-cp310-cp310-win_amd64.whl (2.8 MB)
+Using cached llvmlite-0.44.0-cp310-cp310-win_amd64.whl (30.3 MB)
+Using cached pooch-1.8.2-py3-none-any.whl (64 kB)
+Using cached platformdirs-4.3.8-py3-none-any.whl (18 kB)
+Using cached scikit_learn-1.7.0-cp310-cp310-win_amd64.whl (10.7 MB)
+Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Using cached soundfile-0.13.1-py2.py3-none-win_amd64.whl (1.0 MB)
+Using cached cffi-1.17.1-cp310-cp310-win_amd64.whl (181 kB)
+Using cached soxr-0.5.0.post1-cp310-cp310-win_amd64.whl (166 kB)
+Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Using cached loguru-0.7.3-py3-none-any.whl (61 kB)
+Using cached win32_setctime-1.2.0-py3-none-any.whl (4.1 kB)
+Using cached matplotlib-3.10.3-cp310-cp310-win_amd64.whl (8.1 MB)
+Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl (221 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.58.4-cp310-cp310-win_amd64.whl (2.2 MB)
+Using cached kiwisolver-1.4.8-cp310-cp310-win_amd64.whl (71 kB)
+Using cached pillow-11.2.1-cp310-cp310-win_amd64.whl (2.7 MB)
+Using cached pyparsing-3.2.3-py3-none-any.whl (111 kB)
+Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Using cached pandas-2.3.0-cp310-cp310-win_amd64.whl (11.1 MB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+Using cached pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Using cached pypinyin-0.54.0-py2.py3-none-any.whl (837 kB)
+Using cached tomli-2.2.1-py3-none-any.whl (14 kB)
+Using cached torchdiffeq-0.2.5-py3-none-any.whl (32 kB)
+Using cached transformers-4.52.4-py3-none-any.whl (10.5 MB)
+Using cached tokenizers-0.21.1-cp39-abi3-win_amd64.whl (2.4 MB)
+Using cached regex-2024.11.6-cp310-cp310-win_amd64.whl (274 kB)
+Using cached vocos-0.1.0-py3-none-any.whl (24 kB)
+Using cached wandb-0.20.1-py3-none-win_amd64.whl (22.5 MB)
+Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)
+Using cached pydantic_core-2.33.2-cp310-cp310-win_amd64.whl (2.0 MB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached GitPython-3.1.44-py3-none-any.whl (207 kB)
+Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Using cached smmap-5.0.2-py3-none-any.whl (24 kB)
+Using cached sentry_sdk-2.30.0-py2.py3-none-any.whl (343 kB)
+Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Using cached setproctitle-1.3.6-cp310-cp310-win_amd64.whl (12 kB)
+Using cached xxhash-3.5.0-cp310-cp310-win_amd64.whl (30 kB)
+Building wheels for collected packages: f5_tts
+  DEPRECATION: Building 'f5_tts' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file 
+to the source tree of 'f5_tts'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for f5_tts (setup.py) ... done
+  Created wheel for f5_tts: filename=f5_tts-0.1.0-py3-none-any.whl size=64004 sha256=2789f2606168956653cb85b1aba8c4ebdda746eb27faa9ad8e0b48ad8cef90f1
+  Stored in directory: C:\Users\visualpath\AppData\Local\Temp\pip-ephem-wheel-cache-n9ihbyzv\wheels\6e\6f\bb\7b56835c78ae2eae78ddf853e7cf3d92efd3abaccd82e6f3c3
+Successfully built f5_tts
+Installing collected packages: pytz, pydub, mpmath, jieba, antlr4-python3-runtime, xxhash, win32-setctime, urllib3, tzdata, typing-extensions, tomli, threadpoolctl, sympy, smmap, six, setproctitle, safetensors, regex, pyyaml, pypinyin, pyparsing, pygments, pycparser, pyasn1, pyarrow, psutil, protobuf, propcache, platformdirs, pillow, packaging, numpy, networkx, msgpack, mdurl, MarkupSafe, llvmlite, kiwisolver, joblib, jmespath, idna, google-crc32c, fsspec, frozenlist, frozendict, fonttools, filelock, einops, dill, decorator, cycler, colorama, charset_normalizer, certifi, cachetools, audioread, attrs, async-timeout, annotated-types, aiohappyeyeballs, typing-inspection, tqdm, soxr, sentry-sdk, scipy, rsa, requests, python-dateutil, pydantic-core, pyasn1-modules, proto-plus, omegaconf, numba, multiprocess, multidict, markdown-it-py, loguru, lazy_loader, jinja2, googleapis-common-protos, google-resumable-media, gitdb, einx, contourpy, click, 
+cffi, aiosignal, yarl, torch, soundfile, scikit-learn, rich, pydantic, pooch, pandas, matplotlib, hydra-core, huggingface_hub, google-auth, gitpython, botocore, x_transformers, wandb, torchdiffeq, torchaudio, tokenizers, s3transfer, librosa, google-api-core, ema_pytorch, aiohttp, accelerate, transformers, google-cloud-core, encodec, boto3, vocos, transformers_stream_generator, google-cloud-storage, datasets, cached_path, f5_tts
+Successfully installed MarkupSafe-3.0.2 accelerate-1.8.1 aiohappyeyeballs-2.6.1 aiohttp-3.12.13 aiosignal-1.3.2 annotated-types-0.7.0 antlr4-python3-runtime-4.9.3 async-timeout-5.0.1 attrs-25.3.0 audioread-3.0.1 boto3-1.38.41 botocore-1.38.41 cached_path-1.7.3 cachetools-5.5.2 certifi-2025.6.15 cffi-1.17.1 charset_normalizer-3.4.2 click-8.2.1 colorama-0.4.6 contourpy-1.3.2 cycler-0.12.1 datasets-3.6.0 decorator-5.2.1 dill-0.3.8 einops-0.8.1 einx-0.3.0 ema_pytorch-0.7.7 encodec-0.1.1 f5_tts-0.1.0 filelock-3.18.0 fonttools-4.58.4 frozendict-2.4.6 frozenlist-1.7.0 fsspec-2025.3.0 gitdb-4.0.12 gitpython-3.1.44 google-api-core-2.25.1 google-auth-2.40.3 google-cloud-core-2.4.3 google-cloud-storage-2.19.0 google-crc32c-1.7.1 google-resumable-media-2.7.2 googleapis-common-protos-1.70.0 huggingface_hub-0.33.0 hydra-core-1.3.2 idna-3.10 jieba-0.42.1 jinja2-3.1.6 jmespath-1.0.1 joblib-1.5.1 kiwisolver-1.4.8 lazy_loader-0.4 librosa-0.11.0 llvmlite-0.44.0 loguru-0.7.3 markdown-it-py-3.0.0 matplotlib-3.10.3 mdurl-0.1.2 mpmath-1.3.0 msgpack-1.1.1 multidict-6.5.0 multiprocess-0.70.16 networkx-3.4.2 numba-0.61.2 numpy-1.26.4 omegaconf-2.3.0 packaging-25.0 pandas-2.3.0 pillow-11.2.1 platformdirs-4.3.8 pooch-1.8.2 propcache-0.3.2 proto-plus-1.26.1 protobuf-6.31.1 psutil-7.0.0 pyarrow-20.0.0 pyasn1-0.6.1 pyasn1-modules-0.4.2 pycparser-2.22 pydantic-2.11.7 pydantic-core-2.33.2 pydub-0.25.1 pygments-2.19.2 pyparsing-3.2.3 pypinyin-0.54.0 python-dateutil-2.9.0.post0 pytz-2025.2 pyyaml-6.0.2 regex-2024.11.6 requests-2.32.4 rich-13.9.4 rsa-4.9.1 
+s3transfer-0.13.0 safetensors-0.5.3 scikit-learn-1.7.0 scipy-1.15.3 sentry-sdk-2.30.0 setproctitle-1.3.6 six-1.17.0 smmap-5.0.2 soundfile-0.13.1 soxr-0.5.0.post1 sympy-1.14.0 threadpoolctl-3.6.0 tokenizers-0.21.1 tomli-2.2.1 torch-2.7.1 torchaudio-2.7.1 torchdiffeq-0.2.5 tqdm-4.67.1 transformers-4.52.4 transformers_stream_generator-0.0.5 typing-extensions-4.14.0 typing-inspection-0.4.1 tzdata-2025.2 urllib3-2.5.0 vocos-0.1.0 wandb-0.20.1 win32-setctime-1.2.0 x_transformers-2.3.23 xxhash-3.5.0 yarl-1.20.1
+Collecting git+https://github.com/openai/whisper.git
+  Cloning https://github.com/openai/whisper.git to c:\users\visualpath\appdata\local\temp\pip-req-build-2d20h04g
+  Running command git clone --filter=blob:none --quiet https://github.com/openai/whisper.git 'C:\Users\visualpath\AppData\Local\Temp\pip-req-build-2d20h04g'
+  Resolved https://github.com/openai/whisper.git to commit dd985ac4b90cafeef8712f2998d62c59c3e62d22
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting more-itertools (from openai-whisper==20240930)
+  Using cached more_itertools-10.7.0-py3-none-any.whl.metadata (37 kB)
+Requirement already satisfied: numba in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from openai-whisper==20240930) (0.61.2)
+Requirement already satisfied: numpy in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from openai-whisper==20240930) (1.26.4)
+Collecting tiktoken (from openai-whisper==20240930)
+  Using cached tiktoken-0.9.0-cp310-cp310-win_amd64.whl.metadata (6.8 kB)
+Requirement already satisfied: torch in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from openai-whisper==20240930) (2.7.1)
+Requirement already satisfied: tqdm in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from openai-whisper==20240930) (4.67.1)
+Requirement already satisfied: llvmlite<0.45,>=0.44.0dev0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from numba->openai-whisper==20240930) (0.44.0)
+Requirement already satisfied: regex>=2022.1.18 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from tiktoken->openai-whisper==20240930) (2024.11.6)
+Requirement already satisfied: requests>=2.26.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from tiktoken->openai-whisper==20240930) (2.32.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests>=2.26.0->tiktoken->openai-whisper==20240930) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests>=2.26.0->tiktoken->openai-whisper==20240930) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests>=2.26.0->tiktoken->openai-whisper==20240930) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests>=2.26.0->tiktoken->openai-whisper==20240930) (2025.6.15)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (4.14.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (1.14.0)
+Requirement already satisfied: networkx in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (3.4.2)
+Requirement already satisfied: jinja2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch->openai-whisper==20240930) (2025.3.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from sympy>=1.13.3->torch->openai-whisper==20240930) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from jinja2->torch->openai-whisper==20240930) (3.0.2)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from tqdm->openai-whisper==20240930) (0.4.6)
+Using cached more_itertools-10.7.0-py3-none-any.whl (65 kB)
+Using cached tiktoken-0.9.0-cp310-cp310-win_amd64.whl (894 kB)
+Building wheels for collected packages: openai-whisper
+  Building wheel for openai-whisper (pyproject.toml) ... done
+  Created wheel for openai-whisper: filename=openai_whisper-20240930-py3-none-any.whl size=813054 sha256=96de913a8a88564e768bd1b084d2efea582f3fd8a701a852df7a2ae8db253997
+  Stored in directory: C:\Users\visualpath\AppData\Local\Temp\pip-ephem-wheel-cache-qeaxfkpb\wheels\8b\6c\d0\622666868c179f156cf595c8b6f06f88bc5d80c4b31dccaa03
+Successfully built openai-whisper
+Installing collected packages: more-itertools, tiktoken, openai-whisper
+Successfully installed more-itertools-10.7.0 openai-whisper-20240930 tiktoken-0.9.0
+Collecting git+https://github.com/AI4Bharat/IndicTrans.git
+  Cloning https://github.com/AI4Bharat/IndicTrans.git to c:\users\visualpath\appdata\local\temp\pip-req-build-1greclpa
+  Running command git clone --filter=blob:none --quiet https://github.com/AI4Bharat/IndicTrans.git 'C:\Users\visualpath\AppData\Local\Temp\pip-req-build-1greclpa'
+  Resolved https://github.com/AI4Bharat/IndicTrans.git to commit 219a939bd26f21ef8b19f61f3bd7bece2656c9d9
+ERROR: git+https://github.com/AI4Bharat/IndicTrans.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Requirement already satisfied: torchaudio in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (2.7.1)
+Requirement already satisfied: pydub in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (0.25.1)
+Requirement already satisfied: transformers in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (4.52.4)   
+Requirement already satisfied: torch==2.7.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torchaudio) (2.7.1)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (4.14.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (1.14.0)
+Requirement already satisfied: networkx in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (3.4.2)
+Requirement already satisfied: jinja2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch==2.7.1->torchaudio) (2025.3.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.30.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (0.33.0)
+Requirement already satisfied: numpy>=1.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+transformers) (2024.11.6)
+Requirement already satisfied: requests in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (2.32.4)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (0.21.1)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers) (4.67.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from sympy>=1.13.3->torch==2.7.1->torchaudio) (1.3.0)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from jinja2->torch==2.7.1->torchaudio) (3.0.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->transformers) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->transformers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->transformers) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->transformers) (2025.6.15)
+(indicf5) PS D:\Telugu_2\logs> 
+(indicf5) PS D:\Telugu_2\logs> python -c "import whisper; print('? Whisper ready')"
+>> python -c "from indicf5.synthesizer import inference; print('? IndicF5 ready')"
+>> 
+✅ Whisper ready
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'indicf5'
+(indicf5) PS D:\Telugu_2\logs> pip install git+https://github.com/ai4bharat/IndicF5.git
+>>
+Collecting git+https://github.com/ai4bharat/IndicF5.git
+  Cloning https://github.com/ai4bharat/IndicF5.git to c:\users\visualpath\appdata\local\temp\pip-req-build-dmf50ldd
+  Running command git clone --filter=blob:none --quiet https://github.com/ai4bharat/IndicF5.git 'C:\Users\visualpath\AppData\Local\Temp\pip-req-build-dmf50ldd'
+  Resolved https://github.com/ai4bharat/IndicF5.git to commit b334bb3b1f6a027420cd02c8ffb1fc95b146c6e8
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: accelerate>=0.33.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (1.8.1)
+Requirement already satisfied: cached_path in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (1.7.3)
+Requirement already satisfied: click in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (8.2.1)
+Requirement already satisfied: datasets in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (3.6.0)
+Requirement already satisfied: ema_pytorch>=0.5.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.7.7)
+Requirement already satisfied: hydra-core>=1.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+f5_tts==0.1.0) (1.3.2)
+Requirement already satisfied: jieba in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.42.1)
+Requirement already satisfied: librosa in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.11.0)
+Requirement already satisfied: matplotlib in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (3.10.3)
+Requirement already satisfied: numpy<=1.26.4 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (1.26.4)
+Requirement already satisfied: pydub in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.25.1)
+Requirement already satisfied: pypinyin in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.54.0)
+Requirement already satisfied: safetensors in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.5.3)
+Requirement already satisfied: soundfile in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.13.1)
+Requirement already satisfied: tomli in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (2.2.1)
+Requirement already satisfied: torch>=2.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (2.7.1)
+Requirement already satisfied: torchaudio>=2.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+f5_tts==0.1.0) (2.7.1)
+Requirement already satisfied: torchdiffeq in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.2.5)
+Requirement already satisfied: tqdm>=4.65.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (4.67.1)
+Requirement already satisfied: transformers in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (4.52.4)
+Requirement already satisfied: transformers_stream_generator in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.0.5)
+Requirement already satisfied: vocos in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.1.0)
+Requirement already satisfied: wandb in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from f5_tts==0.1.0) (0.20.1)
+Requirement already satisfied: x_transformers>=1.31.14 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages 
+(from f5_tts==0.1.0) (2.3.23)
+Requirement already satisfied: packaging>=20.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from accelerate>=0.33.0->f5_tts==0.1.0) (25.0)
+Requirement already satisfied: psutil in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from accelerate>=0.33.0->f5_tts==0.1.0) (7.0.0)
+Requirement already satisfied: pyyaml in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from accelerate>=0.33.0->f5_tts==0.1.0) (6.0.2)
+Requirement already satisfied: huggingface_hub>=0.21.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages 
+(from accelerate>=0.33.0->f5_tts==0.1.0) (0.33.0)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (3.18.0)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (2025.3.0)
+Requirement already satisfied: requests in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (2.32.4)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (4.14.0)
+Requirement already satisfied: omegaconf<2.4,>=2.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from hydra-core>=1.3.0->f5_tts==0.1.0) (2.3.0)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from hydra-core>=1.3.0->f5_tts==0.1.0) (4.9.3)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch>=2.0.0->f5_tts==0.1.0) (1.14.0)
+Requirement already satisfied: networkx in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch>=2.0.0->f5_tts==0.1.0) (3.4.2)
+Requirement already satisfied: jinja2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from torch>=2.0.0->f5_tts==0.1.0) (3.1.6)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from sympy>=1.13.3->torch>=2.0.0->f5_tts==0.1.0) (1.3.0)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from tqdm>=4.65.0->f5_tts==0.1.0) (0.4.6)
+Requirement already satisfied: einops>=0.8.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from x_transformers>=1.31.14->f5_tts==0.1.0) (0.8.1)
+Requirement already satisfied: einx>=0.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from x_transformers>=1.31.14->f5_tts==0.1.0) (0.3.0)
+Requirement already satisfied: loguru in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from x_transformers>=1.31.14->f5_tts==0.1.0) (0.7.3)
+Requirement already satisfied: frozendict in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from einx>=0.3.0->x_transformers>=1.31.14->f5_tts==0.1.0) (2.4.6)
+Requirement already satisfied: rich<14.0,>=12.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from cached_path->f5_tts==0.1.0) (13.9.4)
+Requirement already satisfied: boto3<2.0,>=1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from cached_path->f5_tts==0.1.0) (1.38.41)
+Requirement already satisfied: google-cloud-storage<3.0,>=1.32.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from cached_path->f5_tts==0.1.0) (2.19.0)
+Requirement already satisfied: botocore<1.39.0,>=1.38.41 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (1.38.41)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (1.0.1)
+Requirement already satisfied: s3transfer<0.14.0,>=0.13.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (0.13.0)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (2.9.0.post0)
+Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (2.5.0)
+Requirement already satisfied: google-auth<3.0dev,>=2.26.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (2.40.3)
+Requirement already satisfied: google-api-core<3.0.0dev,>=2.15.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (2.25.1)
+Requirement already satisfied: google-cloud-core<3.0dev,>=2.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (2.4.3)
+Requirement already satisfied: google-resumable-media>=2.7.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (2.7.2)
+Requirement already satisfied: google-crc32c<2.0dev,>=1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (1.7.1)
+Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.56.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (1.70.0)
+Requirement already satisfied: protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.19.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (6.31.1)
+Requirement already satisfied: proto-plus<2.0.0,>=1.22.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (1.26.1)     
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (5.5.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (0.4.2)
+Requirement already satisfied: rsa<5,>=3.1.4 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (4.9.1)
+Requirement already satisfied: six>=1.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.39.0,>=1.38.41->boto3<2.0,>=1.0->cached_path->f5_tts==0.1.0) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (3.10)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from requests->huggingface_hub>=0.21.0->accelerate>=0.33.0->f5_tts==0.1.0) (2025.6.15)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from rich<14.0,>=12.1->cached_path->f5_tts==0.1.0) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages 
+(from rich<14.0,>=12.1->cached_path->f5_tts==0.1.0) (2.19.2)
+Requirement already satisfied: pyasn1>=0.1.3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from rsa<5,>=3.1.4->google-auth<3.0dev,>=2.26.1->google-cloud-storage<3.0,>=1.32.0->cached_path->f5_tts==0.1.0) (0.6.1)
+Requirement already satisfied: mdurl~=0.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from markdown-it-py>=2.2.0->rich<14.0,>=12.1->cached_path->f5_tts==0.1.0) (0.1.2)
+Requirement already satisfied: pyarrow>=15.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from datasets->f5_tts==0.1.0) (20.0.0)
+Requirement already satisfied: dill<0.3.9,>=0.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from datasets->f5_tts==0.1.0) (0.3.8)
+Requirement already satisfied: pandas in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from datasets->f5_tts==0.1.0) (2.3.0)
+Requirement already satisfied: xxhash in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from datasets->f5_tts==0.1.0) (3.5.0)
+Requirement already satisfied: multiprocess<0.70.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from datasets->f5_tts==0.1.0) (0.70.16)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (3.12.13)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages 
+(from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (2.6.1)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (1.3.2)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages 
+(from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (5.0.1)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (25.3.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (1.7.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (6.5.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (0.3.2)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets->f5_tts==0.1.0) (1.20.1)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from jinja2->torch>=2.0.0->f5_tts==0.1.0) (3.0.2)
+Requirement already satisfied: audioread>=2.1.9 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (3.0.1)
+Requirement already satisfied: numba>=0.51.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (0.61.2)
+Requirement already satisfied: scipy>=1.6.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (1.15.3)
+Requirement already satisfied: scikit-learn>=1.1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (1.7.0)
+Requirement already satisfied: joblib>=1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (1.5.1)
+Requirement already satisfied: decorator>=4.3.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (5.2.1)
+Requirement already satisfied: pooch>=1.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (1.8.2)
+Requirement already satisfied: soxr>=0.3.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (0.5.0.post1)
+Requirement already satisfied: lazy_loader>=0.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (0.4)
+Requirement already satisfied: msgpack>=1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from librosa->f5_tts==0.1.0) (1.1.1)
+Requirement already satisfied: llvmlite<0.45,>=0.44.0dev0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from numba>=0.51.0->librosa->f5_tts==0.1.0) (0.44.0)
+Requirement already satisfied: platformdirs>=2.5.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pooch>=1.1->librosa->f5_tts==0.1.0) (4.3.8)
+Requirement already satisfied: threadpoolctl>=3.1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from scikit-learn>=1.1.0->librosa->f5_tts==0.1.0) (3.6.0)
+Requirement already satisfied: cffi>=1.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from soundfile->f5_tts==0.1.0) (1.17.1)
+Requirement already satisfied: pycparser in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from cffi>=1.0->soundfile->f5_tts==0.1.0) (2.22)
+Requirement already satisfied: win32-setctime>=1.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from loguru->x_transformers>=1.31.14->f5_tts==0.1.0) (1.2.0)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from matplotlib->f5_tts==0.1.0) (1.3.2)
+Requirement already satisfied: cycler>=0.10 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from matplotlib->f5_tts==0.1.0) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+matplotlib->f5_tts==0.1.0) (4.58.4)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+matplotlib->f5_tts==0.1.0) (1.4.8)
+Requirement already satisfied: pillow>=8 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from matplotlib->f5_tts==0.1.0) (11.2.1)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from matplotlib->f5_tts==0.1.0) (3.2.3)
+Requirement already satisfied: pytz>=2020.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pandas->datasets->f5_tts==0.1.0) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pandas->datasets->f5_tts==0.1.0) (2025.2)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+transformers->f5_tts==0.1.0) (2024.11.6)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from transformers->f5_tts==0.1.0) (0.21.1)
+Requirement already satisfied: encodec==0.1.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from vocos->f5_tts==0.1.0) (0.1.1)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from wandb->f5_tts==0.1.0) (3.1.44)
+Requirement already satisfied: pydantic<3 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from wandb->f5_tts==0.1.0) (2.11.7)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from 
+wandb->f5_tts==0.1.0) (2.30.0)
+Requirement already satisfied: setproctitle in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from wandb->f5_tts==0.1.0) (1.3.6)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pydantic<3->wandb->f5_tts==0.1.0) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pydantic<3->wandb->f5_tts==0.1.0) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from pydantic<3->wandb->f5_tts==0.1.0) (0.4.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb->f5_tts==0.1.0) (4.0.12)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\visualpath\anaconda3\envs\indicf5\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb->f5_tts==0.1.0) (5.0.2)
+(indicf5) PS D:\Telugu_2\logs> 
+
+
+
+(indicf5) PS D:\Telugu_2> python Test.py
+✅ f5_tts imported successfully
+Contents of f5_tts: ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+❌ synthesizer module not found: cannot import name 'synthesizer' from 'f5_tts' (C:\Users\visualpath\anaconda3\envs\indi
+cf5\lib\site-packages\f5_tts\__init__.py)
+❌ inference import failed: No module named 'f5_tts.synthesizer'
+(indicf5) PS D:\Telugu_2> python Test.py
+✅ f5_tts imported successfully
+📁 f5_tts path: ['C:\\Users\\visualpath\\anaconda3\\envs\\indicf5\\lib\\site-packages\\f5_tts']
+
+🔍 Listing files inside f5_tts package:
+
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\api.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\socket_server.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\__init__.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_batch_parallel.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_cli.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_cli_batch.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_gradio.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\infer_gradio_orig.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\speech_edit.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\utils_infer.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__init__.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\infer_batch_parallel.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\infer_cli.cpython-310.pyc        
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\infer_cli_batch.cpython-310.pyc  
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\infer_gradio.cpython-310.pyc     
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\infer_gradio_orig.cpython-310.pycC:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\speech_edit.cpython-310.pyc      
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\utils_infer.cpython-310.pyc      
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\infer\__pycache__\__init__.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\cfm.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\dataset.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\modules.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\trainer.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\utils.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__init__.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\dit.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\mmdit.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\unett.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\__init__.py
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\__pycache__\dit.cpython-310.pyc    
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\__pycache__\mmdit.cpython-310.pyc  
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\__pycache__\unett.cpython-310.pyc  
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\backbones\__pycache__\__init__.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\cfm.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\dataset.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\modules.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\trainer.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\utils.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\model\__pycache__\__init__.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\__pycache__\api.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\__pycache__\socket_server.cpython-310.pyc
+C:\Users\visualpath\anaconda3\envs\indicf5\lib\site-packages\f5_tts\__pycache__\__init__.cpython-310.pyc
+(indicf5) PS D:\Telugu_2> 
