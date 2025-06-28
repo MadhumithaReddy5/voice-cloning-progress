@@ -1,0 +1,48 @@
+# =============================================================================
+# CUDA-DEPENDENT PACKAGES (Choose ONE option below)
+# =============================================================================
+
+# Option 1: CPU-only PyTorch
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# torchvision>=0.15.0
+
+# Option 2: CUDA 11.8
+# torch==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchvision==0.15.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Option 3: CUDA 12.1 (default - NVIDIA drivers detected)
+torch --index-url https://download.pytorch.org/whl/cu121
+torchaudio --index-url https://download.pytorch.org/whl/cu121
+torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# =============================================================================
+# CUDA-ACCELERATED PACKAGES (benefit from GPU)
+# =============================================================================
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+numba>=0.57.0
+
+# =============================================================================
+# CPU-ONLY PACKAGES (no CUDA dependency)
+# =============================================================================
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pyaudio>=0.2.11
+
+# Data processing
+pandas>=2.0.0
+
+# Translation and TTS
+googletrans==4.0.0rc1
+SpeechRecognition>=3.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Gaming/Audio playback
+pygame>=2.5.0

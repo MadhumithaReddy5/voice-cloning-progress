@@ -1,0 +1,18 @@
+{
+  "model_name": "IndicF5-Telugu",
+  "language": "te",
+  "sample_rate": 22050,
+  "hop_length": 256,
+  "win_length": 1024,
+  "n_mel_channels": 80,
+  "mel_fmin": 0,
+  "mel_fmax": 8000,
+  "batch_size": 16,
+  "learning_rate": 0.0002,
+  "epochs": 30,
+  "save_every": 1,
+  "limit_samples": 1000,
+  "dataset_path": "F:/VC_Telugu/IndicF5/telugu_dataset",
+  "output_path": "F:/VC_Telugu/IndicF5/outputs",
+  "checkpoint_path": "F:/VC_Telugu/IndicF5/checkpoints"
+}
