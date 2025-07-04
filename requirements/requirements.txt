@@ -1,0 +1,10 @@
+torch
+openai-whisper
+TTS
+transformers
+deep-translator
+pydub
+numpy
+scipy
+librosa
+soundfile

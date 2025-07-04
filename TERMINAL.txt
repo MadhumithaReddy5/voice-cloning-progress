@@ -1,0 +1,827 @@
+Requirement already satisfied: networkx in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch->openai-whisper) (3.3)
+Requirement already satisfied: jinja2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch->openai-whisper) (3.1.4)
+Requirement already satisfied: fsspec in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch->openai-whisper) (2024.6.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from sympy>=1.13.3->torch->openai-whisper) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from jinja2->torch->openai-whisper) (2.1.5)
+Collecting colorama (from tqdm->openai-whisper)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Using cached more_itertools-10.7.0-py3-none-any.whl (65 kB)
+Using cached numba-0.61.2-cp310-cp310-win_amd64.whl (2.8 MB)
+Using cached llvmlite-0.44.0-cp310-cp310-win_amd64.whl (30.3 MB)
+Using cached tiktoken-0.9.0-cp310-cp310-win_amd64.whl (894 kB)
+Using cached regex-2024.11.6-cp310-cp310-win_amd64.whl (274 kB)
+Using cached requests-2.32.4-py3-none-any.whl (64 kB)
+Using cached charset_normalizer-3.4.2-cp310-cp310-win_amd64.whl (105 kB)
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Using cached certifi-2025.6.15-py3-none-any.whl (157 kB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: urllib3, regex, more-itertools, llvmlite, idna, colorama, charset_normalizer, certifi, tqdm, requests, numba, tiktoken, openai-whisper
+Successfully installed certifi-2025.6.15 charset_normalizer-3.4.2 colorama-0.4.6 idna-3.10 llvmlite-0.44.0 more-itertools-10.7.0 numba-0.61.2 openai-whisper-20250625 regex-2024.11.6 requests-2.32.4 tiktoken-0.9.0 tqdm-4.67.1 urllib3-2.5.0Collecting coqui-tts
+  Using cached coqui_tts-0.26.2-py3-none-any.whl.metadata (19 kB)
+Collecting anyascii>=0.3.0 (from coqui-tts)
+  Using cached anyascii-0.3.3-py3-none-any.whl.metadata (1.6 kB)
+Collecting coqpit-config<0.3.0,>=0.2.0 (from coqui-tts)
+  Using cached coqpit_config-0.2.0-py3-none-any.whl.metadata (11 kB)
+Collecting coqui-tts-trainer<0.3.0,>=0.2.0 (from coqui-tts)
+  Using cached coqui_tts_trainer-0.2.3-py3-none-any.whl.metadata (8.1 kB)
+Collecting cython>=3.0.0 (from coqui-tts)
+  Using cached cython-3.1.2-cp310-cp310-win_amd64.whl.metadata (6.0 kB)
+Collecting einops>=0.6.0 (from coqui-tts)
+  Using cached einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Collecting encodec>=0.1.1 (from coqui-tts)
+  Using cached encodec-0.1.1-py3-none-any.whl
+Requirement already satisfied: fsspec>=2023.6.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from fsspec[http]>=2023.6.0->coqui-tts) (2024.6.1)
+Collecting gruut>=2.4.0 (from gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut-2.4.0.tar.gz (85 kB)
+  Preparing metadata (setup.py) ... done
+Collecting inflect>=5.6.0 (from coqui-tts)
+  Using cached inflect-7.5.0-py3-none-any.whl.metadata (24 kB)
+Collecting librosa>=0.11.0 (from coqui-tts)
+  Using cached librosa-0.11.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting matplotlib>=3.8.4 (from coqui-tts)
+  Using cached matplotlib-3.10.3-cp310-cp310-win_amd64.whl.metadata (11 kB)
+Collecting monotonic-alignment-search>=0.1.0 (from coqui-tts)
+  Downloading monotonic_alignment_search-0.2.0-cp310-cp310-win_amd64.whl.metadata (3.7 kB)
+Collecting num2words>=0.5.14 (from coqui-tts)
+  Using cached num2words-0.5.14-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: numpy>=2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from coqui-tts) (2.1.2)
+Collecting packaging>=23.1 (from coqui-tts)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pysbd>=0.3.4 (from coqui-tts)
+  Using cached pysbd-0.3.4-py3-none-any.whl.metadata (6.1 kB)
+Collecting pyyaml>=6.0 (from coqui-tts)
+  Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl.metadata (2.1 kB)
+Collecting scipy>=1.13.0 (from coqui-tts)
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting soundfile>=0.12.0 (from coqui-tts)
+  Using cached soundfile-0.13.1-py2.py3-none-win_amd64.whl.metadata (16 kB)
+Requirement already satisfied: torch>=2.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from coqui-tts) (2.7.1+cpu)
+Requirement already satisfied: torchaudio>=2.3.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from coqui-tts) (2.7.1+cpu)
+Requirement already satisfied: tqdm>=4.64.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from coqui-tts) (4.67.1)
+Collecting transformers<4.52,>=4.47.0 (from coqui-tts)
+  Using cached transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+Requirement already satisfied: typing-extensions>=4.10 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from coqui-tts) (4.12.2)
+Collecting psutil>=5 (from coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl.metadata (23 kB)
+Collecting tensorboard>=2.17.0 (from coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached tensorboard-2.19.0-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers<4.52,>=4.47.0->coqui-tts) (3.13.1)
+Collecting huggingface-hub<1.0,>=0.30.0 (from transformers<4.52,>=4.47.0->coqui-tts)
+  Downloading huggingface_hub-0.33.2-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from transformers<4.52,>=4.47.0->coqui-tts) (2024.11.6)
+Requirement already satisfied: requests in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers<4.52,>=4.47.0->coqui-tts) (2.32.4)
+Collecting tokenizers<0.22,>=0.21 (from transformers<4.52,>=4.47.0->coqui-tts)
+  Using cached tokenizers-0.21.2-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+Collecting safetensors>=0.4.3 (from transformers<4.52,>=4.47.0->coqui-tts)
+  Using cached safetensors-0.5.3-cp38-abi3-win_amd64.whl.metadata (3.9 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached aiohttp-3.12.13-cp310-cp310-win_amd64.whl.metadata (7.9 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+Collecting async-timeout<6.0,>=4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached frozenlist-1.7.0-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Downloading multidict-6.6.3-cp310-cp310-win_amd64.whl.metadata (5.4 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached propcache-0.3.2-cp310-cp310-win_amd64.whl.metadata (12 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts)
+  Using cached yarl-1.20.1-cp310-cp310-win_amd64.whl.metadata (76 kB)
+Requirement already satisfied: idna>=2.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from yarl<2.0,>=1.17.0->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2023.6.0->coqui-tts) (3.10)
+Collecting Babel<3.0.0,>=2.8.0 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached babel-2.17.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting dateparser~=1.1.1 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached dateparser-1.1.8-py2.py3-none-any.whl.metadata (27 kB)
+Collecting gruut-ipa<1.0,>=0.12.0 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut_ipa-0.13.0-py3-none-any.whl
+Collecting gruut_lang_en~=2.0.0 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut_lang_en-2.0.1-py3-none-any.whl
+Collecting jsonlines~=1.2.0 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached jsonlines-1.2.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Requirement already satisfied: networkx>=2.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts) (3.3)
+Collecting python-crfsuite~=0.9.7 (from gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached python_crfsuite-0.9.11-cp310-cp310-win_amd64.whl.metadata (4.4 kB)
+Collecting python-dateutil (from dateparser~=1.1.1->gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz (from dateparser~=1.1.1->gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzlocal (from dateparser~=1.1.1->gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting six (from jsonlines~=1.2.0->gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting docopt>=0.6.2 (from num2words>=0.5.14->coqui-tts)
+  Using cached docopt-0.6.2-py2.py3-none-any.whl
+Collecting gruut_lang_es~=2.0.0 (from gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut_lang_es-2.0.1-py3-none-any.whl
+Collecting gruut_lang_de~=2.0.0 (from gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut_lang_de-2.0.1-py3-none-any.whl
+Collecting gruut_lang_fr~=2.0.0 (from gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached gruut_lang_fr-2.0.2-py3-none-any.whl
+Requirement already satisfied: more_itertools>=8.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from inflect>=5.6.0->coqui-tts) (10.7.0)
+Collecting typeguard>=4.0.1 (from inflect>=5.6.0->coqui-tts)
+  Using cached typeguard-4.4.4-py3-none-any.whl.metadata (3.3 kB)
+Collecting audioread>=2.1.9 (from librosa>=0.11.0->coqui-tts)
+  Using cached audioread-3.0.1-py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: numba>=0.51.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.11.0->coqui-tts) (0.61.2)
+Collecting scikit-learn>=1.1.0 (from librosa>=0.11.0->coqui-tts)
+  Using cached scikit_learn-1.7.0-cp310-cp310-win_amd64.whl.metadata (14 kB)
+Collecting joblib>=1.0 (from librosa>=0.11.0->coqui-tts)
+  Using cached joblib-1.5.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting decorator>=4.3.0 (from librosa>=0.11.0->coqui-tts)
+  Using cached decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting pooch>=1.1 (from librosa>=0.11.0->coqui-tts)
+  Using cached pooch-1.8.2-py3-none-any.whl.metadata (10 kB)
+Collecting soxr>=0.3.2 (from librosa>=0.11.0->coqui-tts)
+  Using cached soxr-0.5.0.post1-cp310-cp310-win_amd64.whl.metadata (5.6 kB)
+Collecting lazy_loader>=0.1 (from librosa>=0.11.0->coqui-tts)
+  Using cached lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+Collecting msgpack>=1.0 (from librosa>=0.11.0->coqui-tts)
+  Using cached msgpack-1.1.1-cp310-cp310-win_amd64.whl.metadata (8.6 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.8.4->coqui-tts)
+  Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.8.4->coqui-tts)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib>=3.8.4->coqui-tts)
+  Using cached fonttools-4.58.4-cp310-cp310-win_amd64.whl.metadata (108 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.8.4->coqui-tts)
+  Using cached kiwisolver-1.4.8-cp310-cp310-win_amd64.whl.metadata (6.3 kB)
+Requirement already satisfied: pillow>=8 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from matplotlib>=3.8.4->coqui-tts) (11.0.0)
+Collecting pyparsing>=2.3.1 (from matplotlib>=3.8.4->coqui-tts)
+  Using cached pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: llvmlite<0.45,>=0.44.0dev0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from numba>=0.51.0->librosa>=0.11.0->coqui-tts) (0.44.0)
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa>=0.11.0->coqui-tts)
+  Using cached platformdirs-4.3.8-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers<4.52,>=4.47.0->coqui-tts) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers<4.52,>=4.47.0->coqui-tts) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers<4.52,>=4.47.0->coqui-tts) (2025.6.15)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=1.1.0->librosa>=0.11.0->coqui-tts)
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting cffi>=1.0 (from soundfile>=0.12.0->coqui-tts)
+  Using cached cffi-1.17.1-cp310-cp310-win_amd64.whl.metadata (1.6 kB)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.0->coqui-tts)
+  Using cached pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting absl-py>=0.4 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached absl_py-2.3.1-py3-none-any.whl.metadata (3.3 kB)
+Collecting grpcio>=1.48.2 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Downloading grpcio-1.73.1-cp310-cp310-win_amd64.whl.metadata (4.0 kB)
+Collecting markdown>=2.6.8 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached markdown-3.8.2-py3-none-any.whl.metadata (5.1 kB)
+Collecting protobuf!=4.24.0,>=3.19.6 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached protobuf-6.31.1-cp310-abi3-win_amd64.whl.metadata (593 bytes)
+Requirement already satisfied: setuptools>=41.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts) (78.1.1)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)  Using cached tensorboard_data_server-0.7.2-py3-none-any.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts)
+  Using cached werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch>=2.3->coqui-tts) (1.13.3)
+Requirement already satisfied: jinja2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch>=2.3->coqui-tts) (3.1.4)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from sympy>=1.13.3->torch>=2.3->coqui-tts) (1.3.0)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tqdm>=4.64.1->coqui-tts) (0.4.6)
+Collecting typing-extensions>=4.10 (from coqui-tts)
+  Using cached typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from werkzeug>=1.0.1->tensorboard>=2.17.0->coqui-tts-trainer<0.3.0,>=0.2.0->coqui-tts) (2.1.5)
+Collecting tzdata (from tzlocal->dateparser~=1.1.1->gruut>=2.4.0->gruut[de,es,fr]>=2.4.0->coqui-tts)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached coqui_tts-0.26.2-py3-none-any.whl (864 kB)
+Using cached coqpit_config-0.2.0-py3-none-any.whl (15 kB)
+Using cached coqui_tts_trainer-0.2.3-py3-none-any.whl (57 kB)
+Using cached transformers-4.51.3-py3-none-any.whl (10.4 MB)
+Downloading huggingface_hub-0.33.2-py3-none-any.whl (515 kB)
+Using cached tokenizers-0.21.2-cp39-abi3-win_amd64.whl (2.5 MB)
+Using cached anyascii-0.3.3-py3-none-any.whl (345 kB)
+Using cached cython-3.1.2-cp310-cp310-win_amd64.whl (2.7 MB)
+Using cached einops-0.8.1-py3-none-any.whl (64 kB)
+Using cached aiohttp-3.12.13-cp310-cp310-win_amd64.whl (450 kB)
+Using cached async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Downloading multidict-6.6.3-cp310-cp310-win_amd64.whl (45 kB)
+Using cached yarl-1.20.1-cp310-cp310-win_amd64.whl (86 kB)
+Using cached aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Using cached aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+Using cached attrs-25.3.0-py3-none-any.whl (63 kB)
+Using cached frozenlist-1.7.0-cp310-cp310-win_amd64.whl (43 kB)
+Using cached babel-2.17.0-py3-none-any.whl (10.2 MB)
+Using cached dateparser-1.1.8-py2.py3-none-any.whl (293 kB)
+Using cached jsonlines-1.2.0-py2.py3-none-any.whl (7.6 kB)
+Using cached num2words-0.5.14-py3-none-any.whl (163 kB)
+Using cached python_crfsuite-0.9.11-cp310-cp310-win_amd64.whl (301 kB)
+Using cached inflect-7.5.0-py3-none-any.whl (35 kB)
+Using cached librosa-0.11.0-py3-none-any.whl (260 kB)
+Using cached audioread-3.0.1-py3-none-any.whl (23 kB)
+Using cached decorator-5.2.1-py3-none-any.whl (9.2 kB)
+Using cached joblib-1.5.1-py3-none-any.whl (307 kB)
+Using cached lazy_loader-0.4-py3-none-any.whl (12 kB)
+Using cached matplotlib-3.10.3-cp310-cp310-win_amd64.whl (8.1 MB)
+Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl (221 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.58.4-cp310-cp310-win_amd64.whl (2.2 MB)
+Using cached kiwisolver-1.4.8-cp310-cp310-win_amd64.whl (71 kB)
+Downloading monotonic_alignment_search-0.2.0-cp310-cp310-win_amd64.whl (227 kB)
+Using cached msgpack-1.1.1-cp310-cp310-win_amd64.whl (71 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Using cached pooch-1.8.2-py3-none-any.whl (64 kB)
+Using cached platformdirs-4.3.8-py3-none-any.whl (18 kB)
+Using cached propcache-0.3.2-cp310-cp310-win_amd64.whl (41 kB)
+Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+Using cached pyparsing-3.2.3-py3-none-any.whl (111 kB)
+Using cached pysbd-0.3.4-py3-none-any.whl (71 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl (161 kB)
+Using cached safetensors-0.5.3-cp38-abi3-win_amd64.whl (308 kB)
+Using cached scikit_learn-1.7.0-cp310-cp310-win_amd64.whl (10.7 MB)
+Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached soundfile-0.13.1-py2.py3-none-win_amd64.whl (1.0 MB)
+Using cached cffi-1.17.1-cp310-cp310-win_amd64.whl (181 kB)
+Using cached soxr-0.5.0.post1-cp310-cp310-win_amd64.whl (166 kB)
+Using cached tensorboard-2.19.0-py3-none-any.whl (5.5 MB)
+Using cached tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Using cached absl_py-2.3.1-py3-none-any.whl (135 kB)
+Downloading grpcio-1.73.1-cp310-cp310-win_amd64.whl (4.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 10.9 MB/s eta 0:00:00
+Using cached markdown-3.8.2-py3-none-any.whl (106 kB)
+Using cached protobuf-6.31.1-cp310-abi3-win_amd64.whl (435 kB)
+Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Using cached typeguard-4.4.4-py3-none-any.whl (34 kB)
+Using cached typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Building wheels for collected packages: gruut
+  DEPRECATION: Building 'gruut' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by 
+setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'gruut'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for gruut (setup.py) ... done
+  Created wheel for gruut: filename=gruut-2.4.0-py3-none-any.whl size=86914 sha256=68bbd4d8adf7f8a092351a794d2021ff597ed8032162cfad6676b4fb104b8795
+  Stored in directory: c:\users\visualpath\appdata\local\pip\cache\wheels\1c\4f\07\ab1704730dc65b8489d36d2c103532c9bec6b6acb781a59256
+Successfully built gruut
+Installing collected packages: pytz, gruut_lang_fr, gruut_lang_es, gruut_lang_en, gruut_lang_de, docopt, werkzeug, tzdata, typing-extensions, threadpoolctl, tensorboard-data-server, soxr, six, scipy, safetensors, pyyaml, python-crfsuite, 
+pysbd, pyparsing, pycparser, psutil, protobuf, propcache, platformdirs, packaging, num2words, msgpack, monotonic-alignment-search, markdown, kiwisolver, joblib, gruut-ipa, grpcio, frozenlist, fonttools, einops, decorator, cython, cycler, 
+contourpy, Babel, audioread, attrs, async-timeout, anyascii, aiohappyeyeballs, absl-py, tzlocal, typeguard, tensorboard, scikit-learn, python-dateutil, pooch, multidict, lazy_loader, jsonlines, huggingface-hub, coqpit-config, cffi, aiosignal, yarl, tokenizers, soundfile, matplotlib, inflect, dateparser, transformers, librosa, gruut, encodec, coqui-tts-trainer, aiohttp, coqui-tts
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.12.2
+    Uninstalling typing_extensions-4.12.2:
+      Successfully uninstalled typing_extensions-4.12.2
+Successfully installed Babel-2.17.0 absl-py-2.3.1 aiohappyeyeballs-2.6.1 aiohttp-3.12.13 aiosignal-1.3.2 anyascii-0.3.3 async-timeout-5.0.1 attrs-25.3.0 audioread-3.0.1 cffi-1.17.1 contourpy-1.3.2 coqpit-config-0.2.0 coqui-tts-0.26.2 coqui-tts-trainer-0.2.3 cycler-0.12.1 cython-3.1.2 dateparser-1.1.8 decorator-5.2.1 docopt-0.6.2 einops-0.8.1 encodec-0.1.1 fonttools-4.58.4 frozenlist-1.7.0 grpcio-1.73.1 gruut-2.4.0 gruut-ipa-0.13.0 gruut_lang_de-2.0.1 gruut_lang_en-2.0.1 gruut_lang_es-2.0.1 gruut_lang_fr-2.0.2 huggingface-hub-0.33.2 inflect-7.5.0 joblib-1.5.1 jsonlines-1.2.0 kiwisolver-1.4.8 lazy_loader-0.4 librosa-0.11.0 markdown-3.8.2 matplotlib-3.10.3 monotonic-alignment-search-0.2.0 msgpack-1.1.1 multidict-6.6.3 num2words-0.5.14 packaging-25.0 platformdirs-4.3.8 pooch-1.8.2 propcache-0.3.2 protobuf-6.31.1 psutil-7.0.0 
+pycparser-2.22 pyparsing-3.2.3 pysbd-0.3.4 python-crfsuite-0.9.11 python-dateutil-2.9.0.post0 pytz-2025.2 pyyaml-6.0.2 
+safetensors-0.5.3 scikit-learn-1.7.0 scipy-1.15.3 six-1.17.0 soundfile-0.13.1 soxr-0.5.0.post1 tensorboard-2.19.0 tensorboard-data-server-0.7.2 threadpoolctl-3.6.0 tokenizers-0.21.2 transformers-4.51.3 typeguard-4.4.4 typing-extensions-4.14.0 tzdata-2025.2 tzlocal-5.3.1 werkzeug-3.1.3 yarl-1.20.1
+Requirement already satisfied: transformers in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (4.51.3)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (3.13.1)
+Requirement already satisfied: huggingface-hub<1.0,>=0.30.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (0.33.2)
+Requirement already satisfied: numpy>=1.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from 
+transformers) (2.1.2)
+Requirement already satisfied: packaging>=20.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from 
+transformers) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from transformers) (2024.11.6)
+Requirement already satisfied: requests in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (2.32.4)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (0.21.2)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers) (4.67.1)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from huggingface-hub<1.0,>=0.30.0->transformers) (2024.6.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from huggingface-hub<1.0,>=0.30.0->transformers) (4.14.0)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests->transformers) (2025.6.15)
+Collecting deep-translator
+  Using cached deep_translator-1.11.4-py3-none-any.whl.metadata (30 kB)
+Collecting beautifulsoup4<5.0.0,>=4.9.1 (from deep-translator)
+  Using cached beautifulsoup4-4.13.4-py3-none-any.whl.metadata (3.8 kB)
+Requirement already satisfied: requests<3.0.0,>=2.23.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from deep-translator) (2.32.4)
+Collecting soupsieve>1.2 (from beautifulsoup4<5.0.0,>=4.9.1->deep-translator)
+  Using cached soupsieve-2.7-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: typing-extensions>=4.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from beautifulsoup4<5.0.0,>=4.9.1->deep-translator) (4.14.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests<3.0.0,>=2.23.0->deep-translator) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests<3.0.0,>=2.23.0->deep-translator) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests<3.0.0,>=2.23.0->deep-translator) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests<3.0.0,>=2.23.0->deep-translator) (2025.6.15)
+Using cached deep_translator-1.11.4-py3-none-any.whl (42 kB)
+Using cached beautifulsoup4-4.13.4-py3-none-any.whl (187 kB)
+Using cached soupsieve-2.7-py3-none-any.whl (36 kB)
+Installing collected packages: soupsieve, beautifulsoup4, deep-translator
+Successfully installed beautifulsoup4-4.13.4 deep-translator-1.11.4 soupsieve-2.7
+Collecting pydub
+  Using cached pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Installing collected packages: pydub
+Successfully installed pydub-0.25.1
+(audio_project) PS D:\Hindi Output> python Karnika_madam.py 
+C:\Users\visualpath\anaconda3\envs\audio_project\lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+🎙️ Loading Whisper...
+C:\Users\visualpath\anaconda3\envs\audio_project\lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not 
+supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Traceback (most recent call last):
+  File "D:\Hindi Output\Karnika_madam.py", line 22, in <module>
+    result = model.transcribe(input_audio_path)
+  File "C:\Users\visualpath\anaconda3\envs\audio_project\lib\site-packages\whisper\transcribe.py", line 139, in transcribe
+    mel = log_mel_spectrogram(audio, model.dims.n_mels, padding=N_SAMPLES)
+  File "C:\Users\visualpath\anaconda3\envs\audio_project\lib\site-packages\whisper\audio.py", line 140, in log_mel_spectrogram
+    audio = load_audio(audio)
+    out = run(cmd, capture_output=True, check=True).stdout
+  File "C:\Users\visualpath\anaconda3\envs\audio_project\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\visualpath\anaconda3\envs\audio_project\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\visualpath\anaconda3\envs\audio_project\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+(audio_project) PS D:\Hindi Output> conda install ffmpeg -y
+>> 
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\visualpath\anaconda3\envs\audio_project
+
+  added / updated specs:
+    - ffmpeg
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cairo-1.16.0               |       h85cdd14_6         1.9 MB
+    ffmpeg-6.1.1               |       hc79a5da_3        11.8 MB
+    fontconfig-2.14.1          |       hb33846d_3         224 KB
+    graphite2-1.3.14           |       hd77b12b_1          91 KB
+    harfbuzz-10.2.0            |       he2f9f60_1         1.2 MB
+    libglib-2.84.2             |       h405b238_0         1.6 MB
+    libogg-1.3.5               |       h2bbff1b_1          33 KB
+    libtheora-1.1.1            |       h8cc25b3_3         161 KB
+    libxml2-2.13.8             |       h866ff63_0         2.8 MB
+    pixman-0.40.0              |       h2bbff1b_1         402 KB
+    ------------------------------------------------------------
+                                           Total:        20.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  cairo              pkgs/main/win-64::cairo-1.16.0-h85cdd14_6
+  dav1d              pkgs/main/win-64::dav1d-1.2.1-h2bbff1b_0
+  ffmpeg             pkgs/main/win-64::ffmpeg-6.1.1-hc79a5da_3
+  fontconfig         pkgs/main/win-64::fontconfig-2.14.1-hb33846d_3
+  freetype           pkgs/main/win-64::freetype-2.13.3-h0620614_0
+  graphite2          pkgs/main/win-64::graphite2-1.3.14-hd77b12b_1
+  harfbuzz           pkgs/main/win-64::harfbuzz-10.2.0-he2f9f60_1
+  icu                pkgs/main/win-64::icu-73.1-h6c2663c_0
+  libglib            pkgs/main/win-64::libglib-2.84.2-h405b238_0
+  libiconv           pkgs/main/win-64::libiconv-1.16-h2bbff1b_3
+  libogg             pkgs/main/win-64::libogg-1.3.5-h2bbff1b_1
+  libpng             pkgs/main/win-64::libpng-1.6.39-h8cc25b3_0
+  libtheora          pkgs/main/win-64::libtheora-1.1.1-h8cc25b3_3
+  libxml2            pkgs/main/win-64::libxml2-2.13.8-h866ff63_0
+  pcre2              pkgs/main/win-64::pcre2-10.42-h0ff8eda_1
+  pixman             pkgs/main/win-64::pixman-0.40.0-h2bbff1b_1
+
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(audio_project) PS D:\Hindi Output> python Karnika_madam.py
+🎙️ Loading Whisper...
+C:\Users\visualpath\anaconda3\envs\audio_project\lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not 
+supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+📄 English Text:
+   So, there is no other person or no other device which is going to control its course of thoughts in taking a decision. For example, the same robot we can say or any robot as you can see which is not man controlled which operates on its own is an autonomous robot.
+🗣️ Formal Hindi:
+ इसलिए, कोई अन्य व्यक्ति या कोई अन्य उपकरण नहीं है जो निर्णय लेने में अपने विचारों के पाठ्यक्रम को नियंत्रित करने जा रह
+ा है। उदाहरण के लिए, एक ही रोबोट जिसे हम कह सकते हैं या कोई भी रोबोट जैसा कि आप देख सकते हैं कि जो आदमी नियंत्रित नहीं 
+है जो अपने दम पर संचालित होता है वह एक स्वायत्त रोबोट है।
+✅ Colloquial Hindi (80-20 Hinglish):
+ है जो अपने दम पर operate होता है वह एक autonomous robot है।                                                                के लिए, एक ही रोबोट जिसे हम कह
+🧩 Text split into 2 chunks                                                                                             है।
+🎧 Synthesizing chunk 1/2:
+इसलिए, कोई अन्य बंदा या कोई अन्य device नहीं है जो decision ...
+🎧 Synthesizing chunk 2/2:
+The text length exceeds the character limit of 150 for language 'hi', this might cause truncated audio.
+✅ Final voice cloned audio saved to: final_cloned_output.wav
+(audio_project) PS D:\Hindi Output> cd telugu_dataset
+(audio_project) PS D:\Hindi Output\telugu_dataset> python meta_fix.py
+Traceback (most recent call last):
+  File "D:\Hindi Output\telugu_dataset\meta_fix.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+(audio_project) PS D:\Hindi Output\telugu_dataset> pip install pandas
+>>
+Collecting pandas
+  Using cached pandas-2.3.0-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Requirement already satisfied: numpy>=1.22.4 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from pandas) (2.1.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (fromRequirement already satisfied: tzdata>=2022.7 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: six>=1.5 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Using cached pandas-2.3.0-cp310-cp310-win_amd64.whl (11.1 MB)
+Installing collected packages: pandas
+Successfully installed pandas-2.3.0
+(audio_project) PS D:\Hindi Output\telugu_dataset> cd D:\Telugu_XTTS_Training
+cd : Cannot find path 'D:\Telugu_XTTS_Training' because it does not exist.
+At line:1 char:1
++ cd D:\Telugu_XTTS_Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+(audio_project) PS D:\Hindi Output\telugu_dataset> cd ..
+(audio_project) PS D:\Hindi Output> git clone https://github.com/coqui-ai/TTS.git XTTS
+Cloning into 'XTTS'...
+remote: Enumerating objects: 32844, done.
+remote: Total 32844 (delta 0), reused 0 (delta 0), pack-reused 32844 (from 1)
+Receiving objects: 100% (32844/32844), 166.18 MiB | 10.75 MiB/s, done.
+Resolving deltas: 100% (23832/23832), done.
+(audio_project) PS D:\Hindi Output> cd XTTS
+(audio_project) PS D:\Hindi Output\XTTS> pip install -e .
+Obtaining file:///D:/Hindi%20Output/XTTS
+  Installing build dependencies ... done
+  Checking if build backend supports build_editable ... done
+  Getting requirements to build editable ... done
+  Preparing editable metadata (pyproject.toml) ... done
+Collecting numpy==1.22.0 (from TTS==0.22.0)
+  Using cached numpy-1.22.0-cp310-cp310-win_amd64.whl.metadata (2.1 kB)
+Requirement already satisfied: cython>=0.29.30 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (3.1.2)
+Requirement already satisfied: scipy>=1.11.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (1.15.3)
+Requirement already satisfied: torch>=2.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (2.7.1+cpu)
+Requirement already satisfied: torchaudio in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (2.7.1+cpu)
+Requirement already satisfied: soundfile>=0.12.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from TTS==0.22.0) (0.13.1)
+Requirement already satisfied: librosa>=0.10.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.11.0)
+Requirement already satisfied: scikit-learn>=1.3.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (1.7.0)
+Requirement already satisfied: numba>=0.57.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.61.2)
+Requirement already satisfied: inflect>=5.6.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (7.5.0)
+Requirement already satisfied: tqdm>=4.64.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (4.67.1)
+Requirement already satisfied: anyascii>=0.3.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.3.3)
+Requirement already satisfied: pyyaml>=6.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from 
+TTS==0.22.0) (6.0.2)
+Requirement already satisfied: fsspec>=2023.6.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (2024.6.1)
+Requirement already satisfied: aiohttp>=3.8.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (3.12.13)
+Requirement already satisfied: packaging>=23.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (25.0)
+Collecting mutagen==1.47.0 (from TTS==0.22.0)
+  Using cached mutagen-1.47.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting flask>=2.0.1 (from TTS==0.22.0)
+  Using cached flask-3.1.1-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: pysbd>=0.3.4 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.3.4)
+Collecting umap-learn>=0.5.1 (from TTS==0.22.0)
+  Downloading umap_learn-0.5.9.post2-py3-none-any.whl.metadata (25 kB)
+Collecting pandas<2.0,>=1.4 (from TTS==0.22.0)
+  Using cached pandas-1.5.3-cp310-cp310-win_amd64.whl.metadata (12 kB)
+Requirement already satisfied: matplotlib>=3.7.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from TTS==0.22.0) (3.10.3)
+Collecting trainer>=0.0.36 (from TTS==0.22.0)
+  Using cached trainer-0.0.36-py3-none-any.whl.metadata (8.1 kB)
+Collecting coqpit>=0.0.16 (from TTS==0.22.0)
+  Using cached coqpit-0.0.17-py3-none-any.whl.metadata (11 kB)
+Collecting jieba (from TTS==0.22.0)
+  Using cached jieba-0.42.1-py3-none-any.whl
+Collecting pypinyin (from TTS==0.22.0)
+  Using cached pypinyin-0.54.0-py2.py3-none-any.whl.metadata (12 kB)
+Collecting hangul_romanize (from TTS==0.22.0)
+  Using cached hangul_romanize-0.1.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting gruut==2.2.3 (from gruut[de,es,fr]==2.2.3->TTS==0.22.0)
+  Using cached gruut-2.2.3-py3-none-any.whl
+Collecting jamo (from TTS==0.22.0)
+  Using cached jamo-0.4.1-py3-none-any.whl.metadata (2.3 kB)
+Collecting nltk (from TTS==0.22.0)
+  Using cached nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting g2pkk>=0.1.1 (from TTS==0.22.0)
+  Using cached g2pkk-0.1.2-py3-none-any.whl.metadata (2.0 kB)
+Collecting bangla (from TTS==0.22.0)
+  Using cached bangla-0.0.5-py3-none-any.whl.metadata (4.7 kB)
+Collecting bnnumerizer (from TTS==0.22.0)
+  Using cached bnnumerizer-0.0.2-py3-none-any.whl
+Collecting bnunicodenormalizer (from TTS==0.22.0)
+  Using cached bnunicodenormalizer-0.1.7-py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: einops>=0.6.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.8.1)
+Requirement already satisfied: transformers>=4.33.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (4.51.3)
+Requirement already satisfied: encodec>=0.1.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.1.1)
+Collecting unidecode>=1.3.2 (from TTS==0.22.0)
+  Using cached Unidecode-1.4.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: num2words in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from TTS==0.22.0) (0.5.14)
+Collecting spacy>=3 (from spacy[ja]>=3->TTS==0.22.0)
+  Using cached spacy-3.8.7-cp310-cp310-win_amd64.whl.metadata (28 kB)
+Requirement already satisfied: Babel<3.0.0,>=2.8.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.17.0)
+Requirement already satisfied: dateparser~=1.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (1.1.8)
+Requirement already satisfied: gruut-ipa<1.0,>=0.12.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (0.13.0)
+Requirement already satisfied: gruut_lang_en~=2.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.0.1)
+Requirement already satisfied: jsonlines~=1.2.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (1.2.0)
+Collecting networkx<3.0.0,>=2.5.0 (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0)
+  Using cached networkx-2.8.8-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: python-crfsuite~=0.9.7 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (0.9.11)
+Requirement already satisfied: gruut_lang_es~=2.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.0.1)
+Requirement already satisfied: gruut_lang_de~=2.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.0.1)
+Requirement already satisfied: gruut_lang_fr~=2.0.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.0.2)
+Requirement already satisfied: python-dateutil in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from dateparser~=1.1.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2.9.0.post0)
+Requirement already satisfied: pytz in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from dateparser~=1.1.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2025.2)
+Requirement already satisfied: regex!=2019.02.19,!=2021.8.27 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from dateparser~=1.1.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2024.11.6)
+Requirement already satisfied: tzlocal in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from dateparser~=1.1.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (5.3.1)
+Requirement already satisfied: six in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from jsonlines~=1.2.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (1.17.0)
+Requirement already satisfied: docopt>=0.6.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from num2words->TTS==0.22.0) (0.6.2)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (2.6.1)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (1.3.2)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (5.0.1)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (25.3.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from aiohttp>=3.8.1->TTS==0.22.0) (1.7.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (6.6.3)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from aiohttp>=3.8.1->TTS==0.22.0) (0.3.2)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from aiohttp>=3.8.1->TTS==0.22.0) (1.20.1)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from multidict<7.0,>=4.5->aiohttp>=3.8.1->TTS==0.22.0) (4.14.0)
+Requirement already satisfied: idna>=2.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from yarl<2.0,>=1.17.0->aiohttp>=3.8.1->TTS==0.22.0) (3.10)
+Collecting blinker>=1.9.0 (from flask>=2.0.1->TTS==0.22.0)
+  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting click>=8.1.3 (from flask>=2.0.1->TTS==0.22.0)
+  Using cached click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting itsdangerous>=2.2.0 (from flask>=2.0.1->TTS==0.22.0)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: jinja2>=3.1.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from flask>=2.0.1->TTS==0.22.0) (3.1.4)
+Requirement already satisfied: markupsafe>=2.1.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from flask>=2.0.1->TTS==0.22.0) (2.1.5)
+Requirement already satisfied: werkzeug>=3.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from flask>=2.0.1->TTS==0.22.0) (3.1.3)
+Requirement already satisfied: colorama in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from click>=8.1.3->flask>=2.0.1->TTS==0.22.0) (0.4.6)
+Requirement already satisfied: more_itertools>=8.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from inflect>=5.6.0->TTS==0.22.0) (10.7.0)
+Requirement already satisfied: typeguard>=4.0.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from inflect>=5.6.0->TTS==0.22.0) (4.4.4)
+Requirement already satisfied: audioread>=2.1.9 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (3.0.1)
+INFO: pip is looking at multiple versions of librosa to determine which version is compatible with other requirements. 
+This could take a while.
+Collecting librosa>=0.10.0 (from TTS==0.22.0)
+  Using cached librosa-0.10.2.post1-py3-none-any.whl.metadata (8.6 kB)
+  Using cached librosa-0.10.2-py3-none-any.whl.metadata (8.6 kB)
+  Using cached librosa-0.10.1-py3-none-any.whl.metadata (8.3 kB)
+  Using cached librosa-0.10.0.post2-py3-none-any.whl.metadata (8.3 kB)
+  Using cached librosa-0.10.0.post1-py3-none-any.whl.metadata (8.3 kB)
+  Using cached librosa-0.10.0-py3-none-any.whl.metadata (8.3 kB)
+Requirement already satisfied: joblib>=0.14 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (1.5.1)
+Requirement already satisfied: decorator>=4.3.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (5.2.1)
+Requirement already satisfied: pooch>=1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (1.8.2)
+Requirement already satisfied: soxr>=0.3.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from 
+librosa>=0.10.0->TTS==0.22.0) (0.5.0.post1)
+Requirement already satisfied: lazy-loader>=0.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (0.4)
+Requirement already satisfied: msgpack>=1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from librosa>=0.10.0->TTS==0.22.0) (1.1.1)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from matplotlib>=3.7.0->TTS==0.22.0) (1.3.2)
+Requirement already satisfied: cycler>=0.10 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from matplotlib>=3.7.0->TTS==0.22.0) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from matplotlib>=3.7.0->TTS==0.22.0) (4.58.4)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages 
+(from matplotlib>=3.7.0->TTS==0.22.0) (1.4.8)
+INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+Collecting matplotlib>=3.7.0 (from TTS==0.22.0)
+  Using cached matplotlib-3.10.1-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.10.0-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.9.4-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.9.3-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.9.2-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.9.1.post1-cp310-cp310-win_amd64.whl.metadata (11 kB)
+  Using cached matplotlib-3.9.0-cp310-cp310-win_amd64.whl.metadata (11 kB)
+INFO: pip is still looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+  Using cached matplotlib-3.8.4-cp310-cp310-win_amd64.whl.metadata (5.9 kB)
+Requirement already satisfied: pillow>=8 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from matplotlib>=3.7.0->TTS==0.22.0) (11.0.0)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from matplotlib>=3.7.0->TTS==0.22.0) (3.2.3)
+INFO: pip is looking at multiple versions of contourpy to determine which version is compatible with other requirements. This could take a while.
+Collecting contourpy>=1.0.1 (from matplotlib>=3.7.0->TTS==0.22.0)
+  Using cached contourpy-1.3.1-cp310-cp310-win_amd64.whl.metadata (5.4 kB)
+  Using cached contourpy-1.3.0-cp310-cp310-win_amd64.whl.metadata (5.4 kB)
+  Using cached contourpy-1.2.1-cp310-cp310-win_amd64.whl.metadata (5.8 kB)
+Requirement already satisfied: llvmlite<0.45,>=0.44.0dev0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from numba>=0.57.0->TTS==0.22.0) (0.44.0)
+INFO: pip is looking at multiple versions of numba to determine which version is compatible with other requirements. This could take a while.
+Collecting numba>=0.57.0 (from TTS==0.22.0)
+  Using cached numba-0.61.0-cp310-cp310-win_amd64.whl.metadata (2.8 kB)
+  Using cached numba-0.60.0-cp310-cp310-win_amd64.whl.metadata (2.8 kB)
+Collecting llvmlite<0.44,>=0.43.0dev0 (from numba>=0.57.0->TTS==0.22.0)
+  Using cached llvmlite-0.43.0-cp310-cp310-win_amd64.whl.metadata (4.9 kB)
+Requirement already satisfied: platformdirs>=2.5.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from pooch>=1.0->librosa>=0.10.0->TTS==0.22.0) (4.3.8)
+Requirement already satisfied: requests>=2.19.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from pooch>=1.0->librosa>=0.10.0->TTS==0.22.0) (2.32.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests>=2.19.0->pooch>=1.0->librosa>=0.10.0->TTS==0.22.0) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests>=2.19.0->pooch>=1.0->librosa>=0.10.0->TTS==0.22.0) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from requests>=2.19.0->pooch>=1.0->librosa>=0.10.0->TTS==0.22.0) (2025.6.15)
+Requirement already satisfied: threadpoolctl>=3.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from scikit-learn>=1.3.0->TTS==0.22.0) (3.6.0)
+INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+Collecting scipy>=1.11.2 (from TTS==0.22.0)
+  Using cached scipy-1.15.2-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.15.1-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.15.0-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.14.1-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.14.0-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.13.1-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.13.0-cp310-cp310-win_amd64.whl.metadata (60 kB)
+INFO: pip is still looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+  Using cached scipy-1.12.0-cp310-cp310-win_amd64.whl.metadata (60 kB)
+  Using cached scipy-1.11.4-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Requirement already satisfied: cffi>=1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from soundfile>=0.12.0->TTS==0.22.0) (1.17.1)
+Requirement already satisfied: pycparser in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from cffi>=1.0->soundfile>=0.12.0->TTS==0.22.0) (2.22)
+Collecting spacy-legacy<3.1.0,>=3.0.11 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting spacy-loggers<2.0.0,>=1.0.0 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached spacy_loggers-1.0.5-py3-none-any.whl.metadata (23 kB)
+Collecting murmurhash<1.1.0,>=0.28.0 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached murmurhash-1.0.13-cp310-cp310-win_amd64.whl.metadata (2.2 kB)
+Collecting cymem<2.1.0,>=2.0.2 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached cymem-2.0.11-cp310-cp310-win_amd64.whl.metadata (8.8 kB)
+Collecting preshed<3.1.0,>=3.0.2 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached preshed-3.0.10-cp310-cp310-win_amd64.whl.metadata (2.5 kB)
+Collecting thinc<8.4.0,>=8.3.4 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached thinc-8.3.6-cp310-cp310-win_amd64.whl.metadata (15 kB)
+Collecting wasabi<1.2.0,>=0.9.1 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+Collecting srsly<3.0.0,>=2.4.3 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached srsly-2.5.1-cp310-cp310-win_amd64.whl.metadata (20 kB)
+Collecting catalogue<2.1.0,>=2.0.6 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+Collecting weasel<0.5.0,>=0.1.0 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached weasel-0.4.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting typer<1.0.0,>=0.3.0 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached typer-0.16.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+Requirement already satisfied: setuptools in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from spacy>=3->spacy[ja]>=3->TTS==0.22.0) (78.1.1)
+Collecting langcodes<4.0.0,>=3.2.0 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached langcodes-3.5.0-py3-none-any.whl.metadata (29 kB)
+Collecting language-data>=1.2 (from langcodes<4.0.0,>=3.2.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached language_data-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached pydantic_core-2.33.2-cp310-cp310-win_amd64.whl.metadata (6.9 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting blis<1.4.0,>=1.3.0 (from thinc<8.4.0,>=8.3.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached blis-1.3.0-cp310-cp310-win_amd64.whl.metadata (7.6 kB)
+Collecting confection<1.0.0,>=0.0.1 (from thinc<8.4.0,>=8.3.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached confection-0.1.5-py3-none-any.whl.metadata (19 kB)
+INFO: pip is looking at multiple versions of thinc to determine which version is compatible with other requirements. This could take a while.
+Collecting thinc<8.4.0,>=8.3.4 (from spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached thinc-8.3.4-cp310-cp310-win_amd64.whl.metadata (15 kB)
+Collecting blis<1.3.0,>=1.2.0 (from thinc<8.4.0,>=8.3.4->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached blis-1.2.1-cp310-cp310-win_amd64.whl.metadata (7.6 kB)
+Collecting shellingham>=1.3.0 (from typer<1.0.0,>=0.3.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=10.11.0 (from typer<1.0.0,>=0.3.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting cloudpathlib<1.0.0,>=0.7.0 (from weasel<0.5.0,>=0.1.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached cloudpathlib-0.21.1-py3-none-any.whl.metadata (14 kB)
+Collecting smart-open<8.0.0,>=5.2.1 (from weasel<0.5.0,>=0.1.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Downloading smart_open-7.3.0.post1-py3-none-any.whl.metadata (24 kB)
+Collecting wrapt (from smart-open<8.0.0,>=5.2.1->weasel<0.5.0,>=0.1.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached wrapt-1.17.2-cp310-cp310-win_amd64.whl.metadata (6.5 kB)
+Collecting marisa-trie>=1.1.0 (from language-data>=1.2->langcodes<4.0.0,>=3.2.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached marisa_trie-1.2.1-cp310-cp310-win_amd64.whl.metadata (9.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy>=3->spacy[ja]>=3->TTS==0.22.0)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting sudachipy!=0.6.1,>=0.5.2 (from spacy[ja]>=3->TTS==0.22.0)
+  Using cached SudachiPy-0.6.10-cp310-cp310-win_amd64.whl.metadata (13 kB)
+Collecting sudachidict_core>=20211220 (from spacy[ja]>=3->TTS==0.22.0)
+  Using cached sudachidict_core-20250515-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: filelock in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch>=2.1->TTS==0.22.0) (3.13.1)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from torch>=2.1->TTS==0.22.0) (1.13.3)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from sympy>=1.13.3->torch>=2.1->TTS==0.22.0) (1.3.0)
+Requirement already satisfied: psutil in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from trainer>=0.0.36->TTS==0.22.0) (7.0.0)
+Requirement already satisfied: tensorboard in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from 
+trainer>=0.0.36->TTS==0.22.0) (2.19.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.30.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers>=4.33.0->TTS==0.22.0) (0.33.2)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers>=4.33.0->TTS==0.22.0) (0.21.2)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from transformers>=4.33.0->TTS==0.22.0) (0.5.3)
+INFO: pip is looking at multiple versions of umap-learn to determine which version is compatible with other requirements. This could take a while.
+Collecting umap-learn>=0.5.1 (from TTS==0.22.0)
+  Using cached umap_learn-0.5.8-py3-none-any.whl.metadata (23 kB)
+  Using cached umap_learn-0.5.7-py3-none-any.whl.metadata (21 kB)
+Collecting pynndescent>=0.5 (from umap-learn>=0.5.1->TTS==0.22.0)
+  Using cached pynndescent-0.5.13-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: absl-py>=0.4 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard->trainer>=0.0.36->TTS==0.22.0) (2.3.1)
+Requirement already satisfied: grpcio>=1.48.2 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard->trainer>=0.0.36->TTS==0.22.0) (1.73.1)
+Requirement already satisfied: markdown>=2.6.8 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard->trainer>=0.0.36->TTS==0.22.0) (3.8.2)
+Requirement already satisfied: protobuf!=4.24.0,>=3.19.6 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard->trainer>=0.0.36->TTS==0.22.0) (6.31.1)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tensorboard->trainer>=0.0.36->TTS==0.22.0) (0.7.2)
+Requirement already satisfied: tzdata in c:\users\visualpath\anaconda3\envs\audio_project\lib\site-packages (from tzlocal->dateparser~=1.1.0->gruut==2.2.3->gruut[de,es,fr]==2.2.3->TTS==0.22.0) (2025.2)
+Using cached numpy-1.22.0-cp310-cp310-win_amd64.whl (14.7 MB)
+Downloading mutagen-1.47.0-py3-none-any.whl (194 kB)
+Using cached networkx-2.8.8-py3-none-any.whl (2.0 MB)
+Using cached pandas-1.5.3-cp310-cp310-win_amd64.whl (10.4 MB)
+Using cached coqpit-0.0.17-py3-none-any.whl (13 kB)
+Using cached flask-3.1.1-py3-none-any.whl (103 kB)
+Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Using cached click-8.2.1-py3-none-any.whl (102 kB)
+Using cached g2pkk-0.1.2-py3-none-any.whl (25 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached librosa-0.10.0-py3-none-any.whl (252 kB)
+Using cached matplotlib-3.8.4-cp310-cp310-win_amd64.whl (7.7 MB)
+Using cached contourpy-1.2.1-cp310-cp310-win_amd64.whl (187 kB)
+Using cached numba-0.60.0-cp310-cp310-win_amd64.whl (2.7 MB)
+Using cached llvmlite-0.43.0-cp310-cp310-win_amd64.whl (28.1 MB)
+Using cached scipy-1.11.4-cp310-cp310-win_amd64.whl (44.1 MB)
+Using cached spacy-3.8.7-cp310-cp310-win_amd64.whl (14.9 MB)
+Using cached catalogue-2.0.10-py3-none-any.whl (17 kB)
+Using cached cymem-2.0.11-cp310-cp310-win_amd64.whl (39 kB)
+Using cached langcodes-3.5.0-py3-none-any.whl (182 kB)
+Using cached murmurhash-1.0.13-cp310-cp310-win_amd64.whl (24 kB)
+Using cached preshed-3.0.10-cp310-cp310-win_amd64.whl (117 kB)
+Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)
+Using cached pydantic_core-2.33.2-cp310-cp310-win_amd64.whl (2.0 MB)
+Using cached spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Using cached spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
+Using cached srsly-2.5.1-cp310-cp310-win_amd64.whl (632 kB)
+Using cached thinc-8.3.4-cp310-cp310-win_amd64.whl (1.5 MB)
+Using cached blis-1.2.1-cp310-cp310-win_amd64.whl (6.2 MB)
+Using cached confection-0.1.5-py3-none-any.whl (35 kB)
+Using cached typer-0.16.0-py3-none-any.whl (46 kB)
+Using cached wasabi-1.1.3-py3-none-any.whl (27 kB)
+Using cached weasel-0.4.1-py3-none-any.whl (50 kB)
+Using cached cloudpathlib-0.21.1-py3-none-any.whl (52 kB)
+Downloading smart_open-7.3.0.post1-py3-none-any.whl (61 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached language_data-1.3.0-py3-none-any.whl (5.4 MB)
+Using cached marisa_trie-1.2.1-cp310-cp310-win_amd64.whl (151 kB)
+Using cached rich-14.0.0-py3-none-any.whl (243 kB)
+Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Using cached sudachidict_core-20250515-py3-none-any.whl (72.1 MB)
+Using cached SudachiPy-0.6.10-cp310-cp310-win_amd64.whl (1.4 MB)
+Using cached trainer-0.0.36-py3-none-any.whl (51 kB)
+Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Using cached umap_learn-0.5.7-py3-none-any.whl (88 kB)
+Using cached pynndescent-0.5.13-py3-none-any.whl (56 kB)
+Using cached Unidecode-1.4.0-py3-none-any.whl (235 kB)
+Using cached bangla-0.0.5-py3-none-any.whl (5.1 kB)
+Using cached bnunicodenormalizer-0.1.7-py3-none-any.whl (23 kB)
+Using cached hangul_romanize-0.1.0-py3-none-any.whl (4.6 kB)
+Using cached jamo-0.4.1-py3-none-any.whl (9.5 kB)
+Using cached nltk-3.9.1-py3-none-any.whl (1.5 MB)
+Using cached pypinyin-0.54.0-py2.py3-none-any.whl (837 kB)
+Using cached wrapt-1.17.2-cp310-cp310-win_amd64.whl (38 kB)
+Building wheels for collected packages: TTS
+  Building editable for TTS (pyproject.toml) ... done
+  Created wheel for TTS: filename=tts-0.22.0-0.editable-cp310-cp310-win_amd64.whl size=15275 sha256=7799dea0105fc7c3575329c44e4bcbe60ea8dbe11c523e0cf68c41b276e0049e
+  Stored in directory: C:\Users\visualpath\AppData\Local\Temp\pip-ephem-wheel-cache-s3t8eoph\wheels\ab\68\6c\05607cf5604ac7fc7a2291bef07d4d5d9a71833007cc17c615
+Successfully built TTS
+Installing collected packages: sudachipy, jieba, jamo, hangul_romanize, cymem, bnunicodenormalizer, bnnumerizer, bangla, wrapt, wasabi, unidecode, typing-inspection, sudachidict_core, spacy-loggers, spacy-legacy, shellingham, pypinyin, pygments, pydantic-core, numpy, networkx, mutagen, murmurhash, mdurl, marisa-trie, llvmlite, itsdangerous, coqpit, cloudpathlib, click, catalogue, blinker, annotated-types, srsly, smart-open, scipy, pydantic, preshed, pandas, numba, nltk, markdown-it-py, language-data, flask, contourpy, blis, trainer, rich, matplotlib, langcodes, gruut, g2pkk, confection, typer, thinc, pynndescent, librosa, weasel, umap-learn, spacy, TTS
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.1.2
+    Uninstalling numpy-2.1.2:
+      Successfully uninstalled numpy-2.1.2
+  Attempting uninstall: networkx
+    Found existing installation: networkx 3.3
+    Uninstalling networkx-3.3:
+      Successfully uninstalled networkx-3.3
+  Attempting uninstall: llvmlite
+    Found existing installation: llvmlite 0.44.0
+    Uninstalling llvmlite-0.44.0:
+      Successfully uninstalled llvmlite-0.44.0
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.15.3
+    Uninstalling scipy-1.15.3:
+      Successfully uninstalled scipy-1.15.3
+  Attempting uninstall: pandas
+    Found existing installation: pandas 2.3.0
+    Uninstalling pandas-2.3.0:
+      Successfully uninstalled pandas-2.3.0
+  Attempting uninstall: numba
+    Found existing installation: numba 0.61.2
+    Uninstalling numba-0.61.2:
+      Successfully uninstalled numba-0.61.2
+  Attempting uninstall: contourpy
+    Found existing installation: contourpy 1.3.2
+    Uninstalling contourpy-1.3.2:
+      Successfully uninstalled contourpy-1.3.2
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.10.3
+    Uninstalling matplotlib-3.10.3:
+      Successfully uninstalled matplotlib-3.10.3
+  Attempting uninstall: gruut
+    Found existing installation: gruut 2.4.0
+    Uninstalling gruut-2.4.0:
+      Successfully uninstalled gruut-2.4.0
+  Attempting uninstall: librosa
+    Found existing installation: librosa 0.11.0
+    Uninstalling librosa-0.11.0:
+      Successfully uninstalled librosa-0.11.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+coqui-tts 0.26.2 requires gruut[de,es,fr]>=2.4.0, but you have gruut 2.2.3 which is incompatible.
+coqui-tts 0.26.2 requires librosa>=0.11.0, but you have librosa 0.10.0 which is incompatible.
+coqui-tts 0.26.2 requires numpy>=2, but you have numpy 1.22.0 which is incompatible.
+coqui-tts 0.26.2 requires scipy>=1.13.0, but you have scipy 1.11.4 which is incompatible.
+coqui-tts-trainer 0.2.3 requires numpy>=1.25.2; python_version < "3.12", but you have numpy 1.22.0 which is incompatible.
+Successfully installed TTS-0.22.0 annotated-types-0.7.0 bangla-0.0.5 blinker-1.9.0 blis-1.2.1 bnnumerizer-0.0.2 bnunicodenormalizer-0.1.7 catalogue-2.0.10 click-8.2.1 cloudpathlib-0.21.1 confection-0.1.5 contourpy-1.2.1 coqpit-0.0.17 cymem-2.0.11 flask-3.1.1 g2pkk-0.1.2 gruut-2.2.3 hangul_romanize-0.1.0 itsdangerous-2.2.0 jamo-0.4.1 jieba-0.42.1 langcodes-3.5.0 language-data-1.3.0 librosa-0.10.0 llvmlite-0.43.0 marisa-trie-1.2.1 markdown-it-py-3.0.0 matplotlib-3.8.4 mdurl-0.1.2 murmurhash-1.0.13 mutagen-1.47.0 networkx-2.8.8 nltk-3.9.1 numba-0.60.0 numpy-1.22.0 pandas-1.5.3 preshed-3.0.10 pydantic-2.11.7 pydantic-core-2.33.2 pygments-2.19.2 pynndescent-0.5.13 pypinyin-0.54.0 rich-14.0.0 scipy-1.11.4 shellingham-1.5.4 smart-open-7.3.0.post1 spacy-3.8.7 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.1 sudachidict_core-20250515 sudachipy-0.6.10 thinc-8.3.4 trainer-0.0.36 typer-0.16.0 typing-inspection-0.4.1 umap-learn-0.5.7 unidecode-1.4.0 wasabi-1.1.3 weasel-0.4.1 wrapt-1.17.2
+(audio_project) PS D:\Hindi Output\XTTS>
