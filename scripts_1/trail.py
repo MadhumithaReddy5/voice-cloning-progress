@@ -10,8 +10,8 @@ start_time = time.time()
 
 # ✅ Manually set paths here (No .env required)
 input_audio_path = r"D:\Audio_Cloning_Project\Results_audio_video\Vivek_sir_input.wav"
-output_audio_path = r"D:\Audio_Cloning_Project\Results_audio_video\cloned_audio_final.wav"
-text_output_path = r"D:\Audio_Cloning_Project\Results_audio_video\translated_colloquial_hindi.txt"
+output_audio_path = r"D:\Audio_Cloning_Project\Results_audio_video\cloned_audio_final_123.wav"
+text_output_path = r"D:\Audio_Cloning_Project\Results_audio_video\translated_colloquial_hindi_123.txt"
 
 # ✅ Other settings
 whisper_model_name = "base"
