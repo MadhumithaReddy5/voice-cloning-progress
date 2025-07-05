@@ -1,1 +1,18 @@
+# Ignore audio files
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+
+# Ignore video files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+
+# Ignore output folders
+Results_audio_video/
+Outputs/
 env310/ 
